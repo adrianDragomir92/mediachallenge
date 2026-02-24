@@ -1,0 +1,68 @@
+@extends('layouts.app')
+
+@section('title', 'Servicii SEO | Media Challenge')
+@section('meta_description', 'Optimizăm site-ul și conținutul pentru Google astfel încât clienții locali să te găsească rapid.')
+
+@section('background')
+    <div class="absolute inset-0 bg-gradient-to-b from-[#0b0f1d] via-midnight to-midnight"></div>
+    <div class="absolute -top-32 right-20 h-96 w-96 rounded-full bg-[#267674] blur-[200px] opacity-70"></div>
+    <div class="absolute bottom-10 left-0 h-80 w-80 rounded-full bg-[#53318f] blur-[200px] opacity-60"></div>
+@endsection
+
+@section('content')
+    <section class="max-w-5xl mx-auto px-6 pt-12 pb-12 text-center">
+        <p class="text-sm uppercase tracking-[0.4em] text-white/60">SEO local & național</p>
+        <h1 class="text-4xl lg:text-5xl font-semibold mt-4">Te găsesc rapid clienții pe Google și pe hărți.</h1>
+        <p class="text-white/70 mt-6 text-lg">
+            Optimizăm site-ul, listele Google Business Profile și conținutul astfel încât brandul tău să apară primul când oamenii caută servicii ca ale tale.
+        </p>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-6 py-12 grid gap-8 lg:grid-cols-3">
+        <article class="rounded-3xl border border-white/10 bg-white/5 p-6 hover-lift-sm">
+            <p class="text-sm text-white/60">Audit complet</p>
+            <h3 class="text-2xl font-semibold mt-2">Ce avem + ce lipsește</h3>
+            <p class="text-white/70 mt-3">Analizăm tehnic site-ul, cuvintele cheie, concurenții și listările existente.</p>
+        </article>
+        <article class="rounded-3xl border border-white/10 bg-white/5 p-6 hover-lift-sm">
+            <p class="text-sm text-white/60">Optimizare tehnică</p>
+            <h3 class="text-2xl font-semibold mt-2">Viteză și structură</h3>
+            <p class="text-white/70 mt-3">Corectăm titlurile, meta-urile, link-urile interne și viteza de încărcare.</p>
+        </article>
+        <article class="rounded-3xl border border-white/10 bg-white/5 p-6 hover-lift-sm">
+            <p class="text-sm text-white/60">Conținut & autoritate</p>
+            <h3 class="text-2xl font-semibold mt-2">Articole, ghiduri, recenzii</h3>
+            <p class="text-white/70 mt-3">Scriem articole utile și ghidăm echipa să obțină recenzii reale pe Google.</p>
+        </article>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-6 pb-16">
+        <div class="rounded-[32px] border border-white/10 bg-white/5 p-8 grid gap-8 lg:grid-cols-2">
+            <div>
+                <p class="text-sm text-white/60">Focus local</p>
+                <h2 class="text-3xl font-semibold mt-3">Optimizare pentru clinici, restaurante și servicii locale.</h2>
+                <p class="text-white/70 mt-4">Ne ocupăm de profilele Google, menționări pe site-uri relevante și ghiduri SEO în limba română. Raportăm lunar pozițiile și telefoanele venite din căutări.</p>
+            </div>
+            <div class="space-y-4 text-sm text-white/70">
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                    <p class="text-white text-lg">+38% trafic organic</p>
+                    <p class="text-white/50 mt-1">Clinica Aestique</p>
+                </div>
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                    <p class="text-white text-lg">Top 3 pe “restaurant cu livrare + oraș”</p>
+                    <p class="text-white/50 mt-1">Northwind Bistro</p>
+                </div>
+                <div class="rounded-2xl border border-white/10 bg-gradient-to-r from-white/10 to-transparent p-4">
+                    <p class="text-white text-lg">“Ne-au pus în ordine site-ul și harta Google. Acum suntem primii când cineva caută clinica noastră.”</p>
+                    <p class="text-white/60 text-sm mt-2">— Andra Voicu, manager</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-4xl mx-auto px-6 pb-20 text-center">
+        <h2 class="text-3xl lg:text-4xl font-semibold">Vrei să urci în Google?</h2>
+        <p class="text-white/70 mt-4">Trimite-ne site-ul și principalele servicii. Îți pregătim un audit gratuit și o ordine de priorități.</p>
+        <a href="mailto:hello@mediaalliance.com" class="mt-8 inline-flex px-10 py-4 rounded-2xl bg-neon text-black font-semibold text-lg shadow-glow hover-cta">Cere audit</a>
+    </section>
+@endsection
