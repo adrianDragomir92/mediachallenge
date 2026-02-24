@@ -41,6 +41,33 @@ body {
     z-index: 50;
 }
 
+[data-mobile-nav] {
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+[data-mobile-nav].is-open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+[data-mobile-nav-panel] {
+    transform: translateY(16px);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+[data-mobile-nav].is-open [data-mobile-nav-panel] {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+[data-mobile-nav] .nav-dropdown-panel {
+    opacity: 1;
+    transform: none;
+    pointer-events: auto;
+}
+
 .nav-dropdown:hover .nav-dropdown-panel,
 .nav-dropdown:focus-within .nav-dropdown-panel {
     opacity: 1;
