@@ -24,7 +24,7 @@
             </ul>
             <ul class="space-y-2">
                 <li class="text-white font-semibold">Contact</li>
-                <li>hello@mediachallenge.ro</li>
+                <li>contact@mediachallenge.ro</li>
                 <li>+40 723 000 111</li>
                 <li class="flex gap-4 text-white/60">
                     <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="hover:text-white" aria-label="Instagram">

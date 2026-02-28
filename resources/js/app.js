@@ -1,5 +1,3 @@
-import './bootstrap';
-
 const initRevealAnimations = () => {
     const elements = document.querySelectorAll('[data-reveal]');
     if (!elements.length || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
@@ -82,9 +80,47 @@ const initMobileNav = () => {
     });
 };
 
+const initTabs = () => {
+    document.querySelectorAll('[data-tab-group]').forEach((group) => {
+        const triggers = group.querySelectorAll('[data-tab-trigger]');
+        const panels = group.querySelectorAll('[data-tab-panel]');
+        if (!triggers.length || !panels.length) {
+            return;
+        }
+
+        const activate = (name) => {
+            panels.forEach((panel) => {
+                if (panel.dataset.tabPanel === name) {
+                    panel.removeAttribute('hidden');
+                } else {
+                    panel.setAttribute('hidden', 'true');
+                }
+            });
+
+            triggers.forEach((trigger) => {
+                const isActive = trigger.dataset.tabTrigger === name;
+                trigger.classList.toggle('is-active', isActive);
+                trigger.setAttribute('aria-selected', String(isActive));
+            });
+        };
+
+        const defaultTrigger = [...triggers].find((trigger) => trigger.classList.contains('is-active')) ?? triggers[0];
+        if (defaultTrigger) {
+            activate(defaultTrigger.dataset.tabTrigger);
+        }
+
+        triggers.forEach((trigger) => {
+            trigger.addEventListener('click', () => {
+                activate(trigger.dataset.tabTrigger);
+            });
+        });
+    });
+};
+
 const initSite = () => {
     initRevealAnimations();
     initMobileNav();
+    initTabs();
 };
 
 if (document.readyState === 'loading') {

@@ -20,7 +20,7 @@
         <div class="rounded-[32px] border border-white/10 bg-white/5 p-8 space-y-6 text-white/80 text-sm leading-relaxed">
             <section>
                 <h2 class="text-white text-lg font-semibold">1. Identificare</h2>
-                <p>Media Challenge este un studio compus din Mădălina Olteanu și Adrian Dragomir. Adresa de corespondență: București, România. Contact: <a href="mailto:hello@mediachallenge.ro" class="text-white">hello@mediachallenge.ro</a>.</p>
+                <p>Media Challenge este un studio compus din Mădălina Olteanu și Adrian Dragomir. Adresa de corespondență: București, România. Contact: <a href="mailto:contact@mediachallenge.ro" class="text-white">contact@mediachallenge.ro</a>.</p>
             </section>
             <section>
                 <h2 class="text-white text-lg font-semibold">2. Utilizarea site-ului</h2>

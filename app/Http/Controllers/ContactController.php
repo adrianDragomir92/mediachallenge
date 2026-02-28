@@ -14,7 +14,7 @@ class ContactController extends Controller
         $data = $request->validated();
 
         try {
-            Mail::to(config('mail.from.address', 'hello@mediachallenge.ro'))
+            Mail::to(config('mail.from.address', 'contact@mediachallenge.ro'))
                 ->send(new ContactMessage($data));
 
             return back()->with('status', 'Mesajul a fost trimis. Revenim în cel mai scurt timp.');
@@ -22,7 +22,7 @@ class ContactController extends Controller
             Log::error('Contact form error', ['exception' => $exception]);
 
             return back()->withInput()->withErrors([
-                'mesaj' => 'A apărut o problemă la trimiterea mesajului. Încearcă din nou sau scrie-ne pe hello@mediachallenge.ro.',
+                'mesaj' => 'A apărut o problemă la trimiterea mesajului. Încearcă din nou sau scrie-ne pe contact@mediachallenge.ro.',
             ]);
         }
     }

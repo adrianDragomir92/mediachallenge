@@ -107,6 +107,6 @@
     <section class="max-w-4xl mx-auto px-6 py-16 text-center">
         <h2 class="text-3xl lg:text-4xl font-semibold">Hai să lucrăm împreună.</h2>
         <p class="text-white/70 mt-4">Trimite-ne un mesaj cu obiectivele tale pe rețele sociale și îți pregătim un plan adaptat industriei tale.</p>
-        <a href="mailto:hello@mediaalliance.com" class="mt-8 inline-flex px-10 py-4 rounded-2xl bg-neon text-black font-semibold text-lg shadow-glow hover-cta">Scrie-ne</a>
+        <a href="mailto:contact@mediachallenge.ro" class="mt-8 inline-flex px-10 py-4 rounded-2xl bg-neon text-black font-semibold text-lg shadow-glow hover-cta">Scrie-ne</a>
     </section>
 @endsection

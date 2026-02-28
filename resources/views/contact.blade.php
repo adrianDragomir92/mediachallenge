@@ -67,7 +67,7 @@
             <button type="submit" class="w-full px-6 py-4 rounded-2xl bg-neon text-black font-semibold text-lg shadow-glow hover-cta">
                 Trimite mesaj
             </button>
-            <p class="text-sm text-white/50">Preferi email direct? <a href="mailto:hello@mediaalliance.com" class="text-white">hello@mediaalliance.com</a></p>
+            <p class="text-sm text-white/50">Preferi email direct? <a href="mailto:contact@mediachallenge.ro" class="text-white">contact@mediachallenge.ro</a></p>
         </form>
         <div class="rounded-[32px] border border-white/10 bg-white/5 p-8 space-y-6">
             <div>
@@ -87,7 +87,7 @@
             </div>
             <div class="space-y-3 text-white/70">
                 <p><span class="text-white">Telefon:</span> +40 723 000 111</p>
-                <p><span class="text-white">Email:</span> hello@mediaalliance.com</p>
+                <p><span class="text-white">Email:</span> contact@mediachallenge.ro</p>
                 <p><span class="text-white">Program:</span> Luni - Vineri, 09:00 - 18:00</p>
             </div>
         </div>

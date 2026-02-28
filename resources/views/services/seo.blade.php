@@ -76,6 +76,6 @@
     <section class="max-w-4xl mx-auto px-6 pb-20 text-center">
         <h2 class="text-3xl lg:text-4xl font-semibold">Vrei să urci în Google?</h2>
         <p class="text-white/70 mt-4">Trimite-ne site-ul și principalele servicii. Îți pregătim un audit gratuit și o ordine de priorități.</p>
-        <a href="mailto:hello@mediaalliance.com" class="mt-8 inline-flex px-10 py-4 rounded-2xl bg-neon text-black font-semibold text-lg shadow-glow hover-cta">Cere audit</a>
+        <a href="mailto:contact@mediachallenge.ro" class="mt-8 inline-flex px-10 py-4 rounded-2xl bg-neon text-black font-semibold text-lg shadow-glow hover-cta">Cere audit</a>
     </section>
 @endsection

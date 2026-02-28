@@ -19,7 +19,7 @@
             </p>
             <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <a href="#tipuri" class="px-8 py-4 rounded-2xl bg-neon text-black font-semibold text-lg shadow-glow hover-cta">Ce includem</a>
-                <a href="mailto:hello@mediachallenge.ro" class="px-8 py-4 rounded-2xl border border-white/30 text-white font-semibold text-lg hover:border-white/60 hover-cta">Scrie-ne</a>
+                <a href="mailto:contact@mediachallenge.ro" class="px-8 py-4 rounded-2xl border border-white/30 text-white font-semibold text-lg hover:border-white/60 hover-cta">Scrie-ne</a>
             </div>
         </div>
         <div class="rounded-[32px] border border-white/10 bg-white/5 overflow-hidden shadow-glow" data-reveal="right">
@@ -86,6 +86,6 @@
     <section class="max-w-5xl mx-auto px-6 py-16 text-center">
         <h2 class="text-3xl lg:text-4xl font-semibold">Ai nevoie de un site nou?</h2>
         <p class="text-white/70 mt-4">Trimite-ne link-urile actuale și câteva obiective. Îți răspundem cu o propunere și timeline clar.</p>
-        <a href="mailto:hello@mediachallenge.ro" class="mt-8 inline-flex px-10 py-4 rounded-2xl bg-neon text-black font-semibold text-lg shadow-glow hover-cta">Trimite brief</a>
+        <a href="mailto:contact@mediachallenge.ro" class="mt-8 inline-flex px-10 py-4 rounded-2xl bg-neon text-black font-semibold text-lg shadow-glow hover-cta">Trimite brief</a>
     </section>
 @endsection

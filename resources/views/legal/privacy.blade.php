@@ -42,7 +42,7 @@
             </section>
             <section>
                 <h2 class="text-white text-lg font-semibold">Drepturile tale</h2>
-                <p>Conform GDPR ai dreptul la informare, acces, rectificare, ștergere, restricționare, portabilitate și opoziție. Pentru exercitarea acestor drepturi, scrie-ne la <a href="mailto:hello@mediachallenge.ro" class="text-white">hello@mediachallenge.ro</a>.</p>
+                <p>Conform GDPR ai dreptul la informare, acces, rectificare, ștergere, restricționare, portabilitate și opoziție. Pentru exercitarea acestor drepturi, scrie-ne la <a href="mailto:contact@mediachallenge.ro" class="text-white">contact@mediachallenge.ro</a>.</p>
             </section>
             <section>
                 <h2 class="text-white text-lg font-semibold">Perioada de păstrare</h2>

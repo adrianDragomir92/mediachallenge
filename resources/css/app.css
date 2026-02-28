@@ -6,7 +6,7 @@
 @source '../**/*.js';
 
 @theme {
-    --font-sans: 'Inter', 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    --font-sans: 'Space Grotesk', 'Inter', 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
         'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     --color-midnight: #05070d;
     --color-charcoal: #0d111b;
@@ -111,6 +111,36 @@ body {
 
 .hover-zoom:hover {
     transform: scale(1.06);
+}
+
+.tab-trigger {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 9999px;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.75);
+    background: rgba(255, 255, 255, 0.05);
+    cursor: pointer;
+    transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease,
+        box-shadow 0.3s ease;
+}
+
+.tab-trigger:hover,
+.tab-trigger:focus-visible {
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.45);
+    outline: none;
+}
+
+.tab-trigger.is-active {
+    background: var(--color-neon);
+    color: #05070d;
+    border-color: var(--color-neon);
+    box-shadow: var(--shadow-glow);
 }
 
 @keyframes float-slow {

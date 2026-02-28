@@ -32,7 +32,7 @@
                 "image": "https://mediachallenge.ro/images/logo.png",
                 "url": "https://mediachallenge.ro",
                 "telephone": "+40 723 000 111",
-                "email": "hello@mediachallenge.ro",
+                "email": "contact@mediachallenge.ro",
                 "address": {
                     "@type": "PostalAddress",
                     "streetAddress": "Strada Profesor Nicolae Radian nr. 2, bl. O2, ap. 10",
