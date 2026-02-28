@@ -27,13 +27,13 @@
                 <li>hello@mediachallenge.ro</li>
                 <li>+40 723 000 111</li>
                 <li class="flex gap-4 text-white/60">
-                    <a href="#" class="hover:text-white" aria-label="Instagram">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="hover:text-white" aria-label="Instagram">
                         <x-icon-instagram class="w-5 h-5" />
                     </a>
-                    <a href="#" class="hover:text-white" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="hover:text-white" aria-label="LinkedIn">
                         <x-icon-linkedin class="w-5 h-5" />
                     </a>
-                    <a href="#" class="hover:text-white" aria-label="YouTube">
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener" class="hover:text-white" aria-label="YouTube">
                         <x-icon-youtube class="w-5 h-5" />
                     </a>
                 </li>

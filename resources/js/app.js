@@ -44,11 +44,13 @@ const initMobileNav = () => {
     const openNav = () => {
         overlay.classList.add('is-open');
         document.body.classList.add('overflow-hidden');
+        openBtn.setAttribute('aria-expanded', 'true');
     };
 
     const closeNav = () => {
         overlay.classList.remove('is-open');
         document.body.classList.remove('overflow-hidden');
+        openBtn.setAttribute('aria-expanded', 'false');
     };
 
     openBtn.addEventListener('click', () => {

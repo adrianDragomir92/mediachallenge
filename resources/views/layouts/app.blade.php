@@ -8,6 +8,15 @@
             name="description"
             content="@yield('meta_description', 'Echipă din România care combină social media, conținut și dezvoltare web pentru branduri ce vor mai mulți clienți.')"
         />
+
+        <meta property="og:title" content="@yield('title', 'Media Challenge | Social Media și Site-uri')">
+        <meta property="og:description" content="@yield('meta_description', 'Echipă din România care combină social media, conținut și dezvoltare web pentru branduri ce vor mai mulți clienți.')">
+        <meta property="og:image" content="{{ url('images/logo.png') }}">
+        <meta property="og:url" content="{{ url()->current() }}">
+        <meta property="og:type" content="website">
+
+        <link rel="canonical" href="{{ url()->current() }}">
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link

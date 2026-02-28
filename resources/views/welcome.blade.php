@@ -70,7 +70,7 @@
                     </div>
                     <div class="rounded-[32px] border border-white/10 bg-white/5 overflow-hidden shadow-glow">
                         <img
-                            src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=900&q=80"
+                            src="{{ asset('images/behind-scenes.webp') }}"
                             alt="Echipă Media Challenge lucrând la conținut video"
                             class="h-64 w-full object-cover"
                         />
@@ -322,8 +322,9 @@
             <article data-reveal class="group rounded-[28px] border border-white/5 bg-white/5 p-4 overflow-hidden hover-lift">
                 <div class="relative h-48 rounded-2xl overflow-hidden hover-zoom">
                     <img
-                        src="https://images.unsplash.com/photo-1516528387618-afa90b13e000?auto=format&fit=crop&w=900&q=80"
+                        src="{{ asset('images/portfolio/clinic.webp') }}"
                         alt="Clinic digital"
+                        loading="lazy"
                         class="h-full w-full object-cover"
                     />
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -344,8 +345,9 @@
             <article data-reveal data-reveal-delay="140" class="group rounded-[28px] border border-white/5 bg-white/5 p-4 overflow-hidden hover-lift">
                 <div class="relative h-48 rounded-2xl overflow-hidden hover-zoom">
                     <img
-                        src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80"
+                        src="{{ asset('images/portfolio/resto.webp') }}"
                         alt="Restaurant elegant"
+                        loading="lazy"
                         class="h-full w-full object-cover"
                     />
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -366,8 +368,9 @@
             <article data-reveal data-reveal-delay="220" class="group rounded-[28px] border border-white/5 bg-white/5 p-4 overflow-hidden hover-lift">
                 <div class="relative h-48 rounded-2xl overflow-hidden hover-zoom">
                     <img
-                        src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=900&q=80"
+                        src="{{ asset('images/portfolio/saas.webp') }}"
                         alt="Board digital și echipă logistică"
+                        loading="lazy"
                         class="h-full w-full object-cover"
                     />
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -466,8 +469,9 @@
             <div class="flex-1 w-full" data-reveal>
                 <div class="rounded-3xl border border-white/10 overflow-hidden shadow-glow mb-6">
                     <img
-                        src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=1000&q=80"
+                        src="{{ asset('images/mobile-concept.webp') }}"
                         alt="Telefon mobil cu feed social"
+                        loading="lazy"
                         class="h-64 w-full object-cover"
                     />
                 </div>

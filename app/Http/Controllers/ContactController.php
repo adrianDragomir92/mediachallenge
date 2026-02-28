@@ -2,28 +2,20 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Http\Requests\ContactRequest;
+use App\Mail\ContactMessage;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
-    public function __invoke(Request $request)
+    public function __invoke(ContactRequest $request)
     {
-        $data = $request->validate([
-            'nume' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'email', 'max:255'],
-            'telefon' => ['nullable', 'string', 'max:50'],
-            'servicii' => ['nullable', 'string', 'max:255'],
-            'mesaj' => ['required', 'string'],
-        ]);
+        $data = $request->validated();
 
         try {
-            Mail::send('emails.contact', ['data' => $data], function ($message) use ($data) {
-                $message->to(config('mail.from.address', 'hello@mediachallenge.ro'))
-                    ->subject('Mesaj nou de pe mediachallenge.ro')
-                    ->replyTo($data['email'], $data['nume']);
-            });
+            Mail::to(config('mail.from.address', 'hello@mediachallenge.ro'))
+                ->send(new ContactMessage($data));
 
             return back()->with('status', 'Mesajul a fost trimis. Revenim în cel mai scurt timp.');
         } catch (\Throwable $exception) {
