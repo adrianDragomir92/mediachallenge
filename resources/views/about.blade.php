@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Despre Noi | Media Challenge')
-@section('meta_description', 'Cunoaște echipa Media Challenge – două persoane care combină marketingul social media cu dezvoltarea web pentru branduri locale.')
+@section('title', 'Despre Media Challenge Târgoviște | Social Media & Web Dâmbovița')
+@section('meta_description', 'Cunoaște echipa Media Challenge din Târgoviște, Dâmbovița – specialiști în social media și dezvoltare web pentru branduri locale și naționale.')
 
 @section('background')
     <div class="absolute inset-0 bg-gradient-to-b from-[#090c17] via-midnight to-midnight"></div>
@@ -15,7 +15,7 @@
         <h1 class="text-4xl lg:text-5xl font-semibold mt-4">Suntem o echipă mică, motivată și aproape de clienți.</h1>
         <p class="text-white/70 mt-4">
             Media Challenge este formată din două persoane care combină creativitatea din social media cu experiența tehnică din dezvoltare web.
-            Lucrăm direct cu fondatorii, fără conturi pasate și fără jargon inutil.
+            Lucrați direct cu fondatorii, fără intermediari și fără limbaj complicat. Suntem localizați în Târgoviște, Dâmbovița și colaborăm cu branduri din toată țara.
         </p>
     </section>
 

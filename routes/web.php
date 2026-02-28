@@ -14,3 +14,4 @@ Route::view('/despre-noi', 'about')->name('about');
 Route::view('/termeni-si-conditii', 'legal.terms')->name('legal.terms');
 Route::view('/politica-confidentialitate', 'legal.privacy')->name('legal.privacy');
 Route::view('/politica-cookie', 'legal.cookies')->name('legal.cookies');
+Route::post('/contact', App\Http\Controllers\ContactController::class)->name('contact.send');

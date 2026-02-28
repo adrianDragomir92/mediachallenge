@@ -26,10 +26,16 @@
                 <li class="text-white font-semibold">Contact</li>
                 <li>hello@mediachallenge.ro</li>
                 <li>+40 723 000 111</li>
-                <li class="flex gap-3 text-white/60">
-                    <span>IG</span>
-                    <span>LI</span>
-                    <span>YT</span>
+                <li class="flex gap-4 text-white/60">
+                    <a href="#" class="hover:text-white" aria-label="Instagram">
+                        <x-icon-instagram class="w-5 h-5" />
+                    </a>
+                    <a href="#" class="hover:text-white" aria-label="LinkedIn">
+                        <x-icon-linkedin class="w-5 h-5" />
+                    </a>
+                    <a href="#" class="hover:text-white" aria-label="YouTube">
+                        <x-icon-youtube class="w-5 h-5" />
+                    </a>
                 </li>
             </ul>
         </div>

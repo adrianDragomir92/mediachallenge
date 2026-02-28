@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Servicii Social Media | Media Challenge')
-@section('meta_description', 'Preluăm complet paginile tale de Facebook, Instagram și TikTok: strategie, conținut, reclame și raportare clară.')
+@section('title', 'Social Media Târgoviște & Dâmbovița | Media Challenge')
+@section('meta_description', 'Servicii social media complete în Târgoviște și județul Dâmbovița: strategie, conținut, Meta Ads, TikTok și raportare clară oferite de Media Challenge.')
 
 @section('background')
     <div class="absolute inset-0 bg-gradient-to-b from-[#0b0f1d] via-midnight to-midnight"></div>
@@ -10,15 +10,28 @@
 @endsection
 
 @section('content')
-    <section class="max-w-5xl mx-auto px-6 pt-12 pb-12 text-center">
-        <p class="text-sm uppercase tracking-[0.4em] text-white/60">Social Media</p>
-        <h1 class="text-4xl lg:text-5xl font-semibold mt-4">Preluăm complet Facebook, Instagram și TikTok pentru brandul tău.</h1>
-        <p class="text-white/70 mt-6 text-lg">
-            Planuri lunare, copy clar, conținut video, răspunsuri rapide la mesaje și rapoarte pe înțelesul tuturor. Totul este gândit să aducă rezervări, programări sau comenzi direct din social media.
-        </p>
-        <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="#pachete" class="px-8 py-4 rounded-2xl bg-neon text-black font-semibold text-lg shadow-glow hover-cta">Vezi pachetele</a>
-            <a href="/" class="px-8 py-4 rounded-2xl border border-white/30 text-white font-semibold text-lg hover:border-white/60 hover-cta">Înapoi la homepage</a>
+    <section class="max-w-6xl mx-auto px-6 pt-12 pb-12 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] items-center">
+        <div class="text-center lg:text-left">
+            <p class="text-sm uppercase tracking-[0.4em] text-white/60">Social Media</p>
+            <h1 class="text-4xl lg:text-5xl font-semibold mt-4">Preluăm complet Facebook, Instagram și TikTok pentru brandul tău.</h1>
+            <p class="text-white/70 mt-6 text-lg">
+                Planuri lunare, copy clar, conținut video, răspunsuri rapide la mesaje și rapoarte pe înțelesul tuturor. Lucrați cu o echipă locală din Târgoviște, activă în Dâmbovița și în restul țării, care construiește setup-uri ce aduc rezervări, programări sau comenzi direct din social media.
+            </p>
+            <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                <a href="#pachete" class="px-8 py-4 rounded-2xl bg-neon text-black font-semibold text-lg shadow-glow hover-cta">Vezi pachetele</a>
+                <a href="/" class="px-8 py-4 rounded-2xl border border-white/30 text-white font-semibold text-lg hover:border-white/60 hover-cta">Înapoi la homepage</a>
+            </div>
+        </div>
+        <div class="rounded-[32px] border border-white/10 bg-white/5 overflow-hidden shadow-glow" data-reveal="right">
+            <img
+                src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1000&q=80"
+                alt="Echipă filmând conținut social media"
+                class="h-72 w-full object-cover"
+            />
+            <div class="p-5">
+                <p class="text-sm uppercase tracking-[0.3em] text-white/60">Studio on set</p>
+                <p class="text-white/75 text-sm mt-2">Planificăm și filmăm campanii într-o singură echipă integrată.</p>
+            </div>
         </div>
     </section>
 

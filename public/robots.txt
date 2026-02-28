@@ -1,2 +1,3 @@
 User-agent: *
 Disallow:
+Sitemap: https://mediachallenge.ro/sitemap.xml
