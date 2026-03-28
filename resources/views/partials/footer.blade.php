@@ -24,21 +24,23 @@
             </ul>
             <ul class="space-y-2">
                 <li class="text-white font-semibold">Contact</li>
-                <li>contact@mediachallenge.ro</li>
-                <li>+40 723 000 111</li>
-                <li class="flex gap-4 text-white/60">
+                <li class="flex items-center gap-2">
+                    <x-icon-mail class="w-4 h-4 text-white/50" />
+                    <a href="mailto:contact@mediachallenge.ro" class="hover:text-white">contact@mediachallenge.ro</a>
+                </li>
+                <li><a href="tel:0736854081" class="hover:text-white">0736 854 081</a></li>
+                <li class="flex gap-4 text-white/60 pt-2">
                     <a href="https://maps.app.goo.gl/U5kgySxWoA7d21Ns9" target="_blank" rel="noopener" class="hover:text-white" aria-label="Google Maps">
-                        <x-icon-monitor class="w-5 h-5" />
+                        <x-icon-map class="w-5 h-5" />
+                    </a>
+                    <a href="https://www.facebook.com/MadaMania2020" target="_blank" rel="noopener" class="hover:text-white" aria-label="Facebook">
+                        <x-icon-facebook class="w-5 h-5" />
                     </a>
                     <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="hover:text-white" aria-label="Instagram">
                         <x-icon-instagram class="w-5 h-5" />
                     </a>
-
-                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="hover:text-white" aria-label="LinkedIn">
-                        <x-icon-linkedin class="w-5 h-5" />
-                    </a>
-                    <a href="https://www.youtube.com/" target="_blank" rel="noopener" class="hover:text-white" aria-label="YouTube">
-                        <x-icon-youtube class="w-5 h-5" />
+                    <a href="https://www.tiktok.com/@media.challenge" target="_blank" rel="noopener" class="hover:text-white" aria-label="TikTok">
+                        <x-icon-tiktok class="w-5 h-5" />
                     </a>
                 </li>
             </ul>

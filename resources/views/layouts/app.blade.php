@@ -31,7 +31,7 @@
                 "name": "Media Challenge",
                 "image": "https://mediachallenge.ro/images/logo.png",
                 "url": "https://mediachallenge.ro",
-                "telephone": "+40 723 000 111",
+                "telephone": "0736854081",
                 "email": "contact@mediachallenge.ro",
                 "address": {
                     "@type": "PostalAddress",
@@ -119,17 +119,18 @@
                         </button>
                     </div>
                     <nav class="flex flex-col gap-6 text-white text-lg">
-                        <a href="{{ url('/') }}" class="hover:text-neon">Acasă</a>
+                        <a href="{{ url('/') }}" class="hover:text-neon {{ request()->is('/') ? 'text-neon font-semibold' : '' }}">Acasă</a>
                         <div class="space-y-3">
                             <p class="text-xs uppercase tracking-[0.4em] text-white/50">Servicii</p>
                             <div class="flex flex-col gap-2 text-white/80">
-                                <a href="{{ route('services.social') }}" class="hover:text-white">Social Media</a>
-                                <a href="{{ route('services.sites') }}" class="hover:text-white">Creare site-uri</a>
-                                <a href="{{ route('services.seo') }}" class="hover:text-white">SEO</a>
+                                <a href="{{ route('services.social') }}" class="hover:text-white {{ request()->routeIs('services.social') ? 'text-neon font-semibold' : '' }}">Social Media</a>
+                                <a href="{{ route('services.sites') }}" class="hover:text-white {{ request()->routeIs('services.sites') ? 'text-neon font-semibold' : '' }}">Creare site-uri</a>
+                                <a href="{{ route('services.seo') }}" class="hover:text-white {{ request()->routeIs('services.seo') ? 'text-neon font-semibold' : '' }}">SEO</a>
                             </div>
                         </div>
-                        <a href="{{ route('about') }}" class="hover:text-neon">Despre noi</a>
-                        <a href="{{ route('contact') }}" class="hover:text-neon">Contact</a>
+                        <a href="{{ route('about') }}" class="hover:text-neon {{ request()->routeIs('about') ? 'text-neon font-semibold' : '' }}">Despre noi</a>
+                        <a href="{{ route('contact') }}" class="hover:text-neon {{ request()->routeIs('contact') ? 'text-neon font-semibold' : '' }}">Contact</a>
+
                         <div class="pt-4 border-t border-white/10 flex flex-col gap-3 text-sm text-white/60">
                             <a href="{{ route('legal.terms') }}" class="hover:text-white">Termeni și condiții</a>
                             <a href="{{ route('legal.privacy') }}" class="hover:text-white">Politica de confidențialitate</a>

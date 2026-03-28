@@ -14,10 +14,6 @@
     <section class="max-w-6xl mx-auto px-6 pb-24 pt-12 lg:pt-24">
         <div class="grid gap-16 lg:grid-cols-[1.1fr_0.9fr] items-center">
             <div>
-                <p data-reveal class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 text-white/70 text-sm mb-6">
-                    <span class="h-2 w-2 rounded-full bg-neon animate-pulse"></span>
-                    Echipă social media + web
-                </p>
                 <h1 data-reveal data-reveal-delay="120" class="text-4xl lg:text-6xl font-semibold leading-tight max-w-2xl">
                     Creăm prezențe puternice pe Facebook, Instagram și TikTok
                 </h1>
@@ -437,10 +433,10 @@
                         <p class="mt-3">Tot ce are nevoie afacerea ta: servicii, poze, contact și formular online de rezervare.</p>
                     </div>
                 </div>
-                <div class="mt-8 flex flex-wrap gap-4" data-reveal data-reveal-delay="200">
-                    <div class="px-5 py-2 rounded-full border border-white/20 text-sm text-white/80">Arată impecabil pe orice telefon</div>
-                    <div class="px-5 py-2 rounded-full border border-white/20 text-sm text-white/80">Găsit ușor pe Google (SEO local)</div>
-                    <div class="px-5 py-2 rounded-full border border-white/20 text-sm text-white/80">Formular online de rezervare direct pe site</div>
+                <div class="mt-8 flex flex-wrap gap-4">
+                    <div data-reveal data-reveal-delay="200" class="px-5 py-2 rounded-full border border-white/20 text-sm text-white/80 badge-animated">Arată impecabil pe orice telefon</div>
+                    <div data-reveal data-reveal-delay="300" class="px-5 py-2 rounded-full border border-white/20 text-sm text-white/80 badge-animated">Găsit ușor pe Google (SEO local)</div>
+                    <div data-reveal data-reveal-delay="400" class="px-5 py-2 rounded-full border border-white/20 text-sm text-white/80 badge-animated">Formular online de rezervare direct pe site</div>
                 </div>
                 <button class="mt-10 px-8 py-4 rounded-2xl bg-neon text-black font-semibold text-lg shadow-glow glow-pulse hover-cta" data-reveal data-reveal-delay="260">
                     Vreau un site nou

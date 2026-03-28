@@ -22,7 +22,9 @@
     <section class="max-w-6xl mx-auto px-6 pb-16 grid gap-8 lg:grid-cols-2">
         <article class="rounded-[32px] border border-white/10 bg-white/5 p-8 backdrop-blur-xl shadow-glow hover-glow-card" data-reveal>
             <p class="text-sm text-white/60 uppercase tracking-[0.4em]">Strategie & social media</p>
-            <h2 class="text-2xl font-semibold mt-3">Mădălina Olteanu</h2>
+            <h2 class="text-2xl font-semibold mt-3">
+                <a href="https://www.linkedin.com/in/madalina-elena-olteanu-47b207294/" target="_blank" rel="noopener" class="hover:text-neon transition-colors">Mădălina Olteanu</a>
+            </h2>
             <p class="text-white/70 mt-4">
                 Strategie Social Media & Conținut. Mădălina transformă postările de pe Facebook, Instagram și TikTok în rezultate reale pentru afacerea ta. Ea gândește tot planul: de la ce filmăm pentru Reels și ce scriem în postări, până la cum răspundem clienților ca să-i convingem să aleagă serviciile tale.
             </p>
@@ -44,7 +46,9 @@
 
         <article class="rounded-[32px] border border-white/10 bg-white/5 p-8 backdrop-blur-xl shadow-glow hover-glow-card" data-reveal data-reveal-delay="160">
             <p class="text-sm text-white/60 uppercase tracking-[0.4em]">Dezvoltare & automatizări</p>
-            <h2 class="text-2xl font-semibold mt-3">Adrian Dragomir</h2>
+            <h2 class="text-2xl font-semibold mt-3">
+                <a href="https://www.linkedin.com/in/adrian-dragomir-b0b70114b/" target="_blank" rel="noopener" class="hover:text-neon transition-colors">Adrian Dragomir</a>
+            </h2>
             <p class="text-white/70 mt-4">
                 Programator Full-Stack & Arhitect de Soluții. Specialist Laravel cu peste 10 ani de experiență în dezvoltarea de aplicații web complexe, integrări API și sisteme de automatizare care transformă afacerile digitale.
             </p>
@@ -73,9 +77,9 @@
             livrăm rapoarte adaptate pentru decizii rapide.
         </p>
         <div class="mt-8 inline-flex flex-wrap gap-4">
-            <div class="px-5 py-2 rounded-full border border-white/20 text-sm text-white/80">Social media + web</div>
-            <div class="px-5 py-2 rounded-full border border-white/20 text-sm text-white/80">Discuții directe, fără account managers</div>
-            <div class="px-5 py-2 rounded-full border border-white/20 text-sm text-white/80">Procese simple, rezultate clare</div>
+            <div class="px-5 py-2 rounded-full border border-white/20 text-sm text-white/80 badge-animated">Social media + web</div>
+            <div class="px-5 py-2 rounded-full border border-white/20 text-sm text-white/80 badge-animated">Discuții directe, fără account managers</div>
+            <div class="px-5 py-2 rounded-full border border-white/20 text-sm text-white/80 badge-animated">Procese simple, rezultate clare</div>
         </div>
     </section>
 

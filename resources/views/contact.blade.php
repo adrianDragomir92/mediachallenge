@@ -28,7 +28,7 @@
             @endif
             <div>
                 <label for="nume" class="text-sm text-white/60">Nume și prenume</label>
-                <input id="nume" name="nume" type="text" value="{{ old('nume') }}" placeholder="Ana Marinescu" class="mt-2 w-full rounded-2xl bg-midnight/60 border border-white/10 px-4 py-3 text-white focus:border-neon focus:outline-none" required />
+                <input id="nume" name="nume" type="text" value="{{ old('nume') }}" placeholder="Numele tău complet" class="mt-2 w-full rounded-2xl bg-midnight/60 border border-white/10 px-4 py-3 text-white focus:border-neon focus:outline-none" required />
                 @error('nume')
                     <p class="text-xs text-rose-300 mt-2">{{ $message }}</p>
                 @enderror
@@ -67,15 +67,52 @@
             <button type="submit" class="w-full px-6 py-4 rounded-2xl bg-neon text-black font-semibold text-lg shadow-glow hover-cta">
                 Trimite mesaj
             </button>
-            <p class="text-sm text-white/50">Preferi email direct? <a href="mailto:contact@mediachallenge.ro" class="text-white">contact@mediachallenge.ro</a></p>
+            <div class="pt-6 border-t border-white/10 space-y-4">
+                <p class="text-xs uppercase tracking-[0.2em] text-white/50">Ce se întâmplă după ce trimiți mesajul?</p>
+                <div class="grid gap-3 text-sm">
+                    <div class="flex items-center gap-3 text-white/70">
+                        <span class="flex-shrink-0 h-1.5 w-1.5 rounded-full bg-neon"></span>
+                        Analizăm mesajul tău imediat
+                    </div>
+                    <div class="flex items-center gap-3 text-white/70">
+                        <span class="flex-shrink-0 h-1.5 w-1.5 rounded-full bg-neon"></span>
+                        Revenim cu o propunere în max. 24h
+                    </div>
+                    <div class="flex items-center gap-3 text-white/70">
+                        <span class="flex-shrink-0 h-1.5 w-1.5 rounded-full bg-neon"></span>
+                        Stabilim o primă discuție (fizic/online)
+                    </div>
+                </div>
+            </div>
+            <p class="text-sm text-white/50 pt-4">Preferi email direct? <a href="mailto:contact@mediachallenge.ro" class="text-white hover:text-neon">contact@mediachallenge.ro</a></p>
         </form>
         <div class="rounded-[32px] border border-white/10 bg-white/5 p-8 space-y-6">
             <div>
-                <p class="text-sm text-white/60">Birou</p>
-                <h2 class="text-2xl font-semibold">Târgoviște</h2>
-                <p class="text-white/70 mt-2">Strada Profesor Nicolae Radian nr. 2, bl. O2, ap. 10. Programăm întâlniri fizice sau online în funcție de proiect.</p>
-                <a href="https://maps.app.goo.gl/U5kgySxWoA7d21Ns9" target="_blank" rel="noopener" class="mt-4 inline-flex items-center gap-2 text-neon text-sm hover:underline">
-                    <x-icon-monitor class="w-4 h-4" />
+                <p class="text-sm text-white/60 uppercase tracking-[0.4em]">Birou</p>
+                <h2 class="text-2xl font-semibold mt-3">Târgoviște</h2>
+                
+                <div class="mt-6 flex items-start gap-4">
+                    <div class="h-10 w-10 rounded-xl bg-white/5 flex items-center justify-center shrink-0">
+                        <x-icon-map class="w-5 h-5 text-neon" />
+                    </div>
+                    <div>
+                        <p class="text-white font-medium">Adresă Sediu</p>
+                        <p class="text-white/70 text-sm mt-1 leading-relaxed">Strada Profesor Nicolae Radian nr. 2, bl. O2, ap. 10.</p>
+                    </div>
+                </div>
+
+                <div class="mt-6 flex items-start gap-4">
+                    <div class="h-10 w-10 rounded-xl bg-white/5 flex items-center justify-center shrink-0">
+                        <x-icon-bolt class="w-5 h-5 text-neon" />
+                    </div>
+                    <div>
+                        <p class="text-white font-medium">Programări</p>
+                        <p class="text-white/70 text-sm mt-1 leading-relaxed text-balance">Programăm întâlniri fizice sau online în funcție de proiect.</p>
+                    </div>
+                </div>
+
+                <a href="https://maps.app.goo.gl/U5kgySxWoA7d21Ns9" target="_blank" rel="noopener" class="mt-8 inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-white/10 text-white text-sm hover:bg-white/5 transition-colors">
+                    <x-icon-map class="w-4 h-4 text-neon" />
                     Vezi pe Google Maps
                 </a>
             </div>
@@ -91,7 +128,7 @@
 
             </div>
             <div class="space-y-3 text-white/70">
-                <p><span class="text-white">Telefon:</span> +40 723 000 111</p>
+                <p><span class="text-white">Telefon:</span> <a href="tel:0736854081" class="hover:text-neon transition-colors">0736 854 081</a></p>
                 <p><span class="text-white">Email:</span> contact@mediachallenge.ro</p>
                 <p><span class="text-white">Program:</span> Luni - Vineri, 09:00 - 18:00</p>
             </div>
