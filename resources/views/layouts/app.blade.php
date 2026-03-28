@@ -54,12 +54,37 @@
 
             <header class="relative z-50 max-w-6xl mx-auto px-6 py-8 flex items-center justify-between">
                 <a href="/" class="flex items-center gap-3">
-                    <div class="h-12 w-12 rounded-2xl bg-white/5 flex items-center justify-center shadow-glow">
+                    {{-- <div class="h-12 w-12 rounded-2xl bg-white/5 flex items-center justify-center shadow-glow">
                         <x-app-logo class="h-10 w-10" />
-                    </div>
+                    </div> --}}
                     <div>
-                        <p class="text-sm uppercase tracking-[0.3em] text-white/60">Media Challenge</p>
-                        <p class="text-white font-semibold text-lg">Strategie. Conținut. Rezultate.</p>
+                        <svg width="250" height="50" viewBox="0 0 250 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="mcGrad" x1="6" y1="8" x2="36" y2="42" gradientUnits="userSpaceOnUse">
+                                <stop offset="0" stop-color="#67E8F9"/>
+                                <stop offset="0.55" stop-color="#60A5FA"/>
+                                <stop offset="1" stop-color="#A855F7"/>
+                                </linearGradient>
+                                <filter id="softGlow" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feGaussianBlur stdDeviation="2.5" result="blur"/>
+                                <feMerge>
+                                    <feMergeNode in="blur"/>
+                                    <feMergeNode in="SourceGraphic"/>
+                                </feMerge>
+                                    </filter>
+                                </defs>
+
+                                <g filter="url(#softGlow)">
+                                    <path d="M8 38L15.5 12H20.2L25 26.5L29.8 12H34.5L42 38H36.8L32.1 20.2L26.7 36H23L17.9 20.2L13.2 38H8Z" fill="url(#mcGrad)"/>
+                                    <circle cx="39" cy="14" r="2.6" fill="#8B5CF6"/>
+                                </g>
+
+                                <text x="54" y="22" fill="#F8FAFC" font-family="Inter, Manrope, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="0.08em">MEDIA</text>
+                                <text x="54" y="38" fill="#C4B5FD" font-family="Inter, Manrope, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="0.02em">CHALLENGE</text>
+                                </svg>
+
+                        {{-- <p class="text-sm uppercase tracking-[0.3em] text-white/60">Media Challenge</p>
+                        <p class="text-white font-semibold text-lg">Strategie. Conținut. Rezultate.</p> --}}
                     </div>
                 </a>
                 <div class="hidden md:flex items-center gap-4">

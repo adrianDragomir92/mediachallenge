@@ -20,34 +20,51 @@
     </section>
 
     <section class="max-w-6xl mx-auto px-6 pb-16 grid gap-8 lg:grid-cols-2">
-        <article class="rounded-[32px] border border-white/10 bg-white/5 p-8 backdrop-blur-xl shadow-glow" data-reveal>
+        <article class="rounded-[32px] border border-white/10 bg-white/5 p-8 backdrop-blur-xl shadow-glow hover-glow-card" data-reveal>
             <p class="text-sm text-white/60 uppercase tracking-[0.4em]">Strategie & social media</p>
             <h2 class="text-2xl font-semibold mt-3">Mădălina Olteanu</h2>
             <p class="text-white/70 mt-4">
-                Strateg social media și producător de conținut. Se ocupă de calendare, direcție creativă, copy și optimizări pentru Facebook, Instagram și TikTok,
-                astfel încât brandurile să aibă o prezență coerentă și constantă.
+                Strategie Social Media & Conținut. Mădălina transformă postările de pe Facebook, Instagram și TikTok în rezultate reale pentru afacerea ta. Ea gândește tot planul: de la ce filmăm pentru Reels și ce scriem în postări, până la cum răspundem clienților ca să-i convingem să aleagă serviciile tale.
             </p>
-            <ul class="mt-6 space-y-2 text-sm text-white/70">
-                <li>10+ ani în marketing digital</li>
-                <li>Experiență hands-on cu clinici, restaurante și retail</li>
-                <li>Focus pe mesaje clare și rezultate măsurabile</li>
+            <ul class="mt-6 space-y-3 text-sm text-white/70">
+                <li class="flex items-start gap-3">
+                    <span class="h-2 w-2 rounded-full bg-neon mt-1.5"></span>
+                    8+ ani de experiență în promovarea online
+                </li>
+                <li class="flex items-start gap-3">
+                    <span class="h-2 w-2 rounded-full bg-neon mt-1.5"></span>
+                    Specializată în clinici medicale și agenții de turism
+                </li>
+                <li class="flex items-start gap-3">
+                    <span class="h-2 w-2 rounded-full bg-neon mt-1.5"></span>
+                    Focus pe postări care atrag atenția și aduc clienți noi
+                </li>
             </ul>
         </article>
 
-        <article class="rounded-[32px] border border-white/10 bg-white/5 p-8 backdrop-blur-xl shadow-glow" data-reveal data-reveal-delay="160">
+        <article class="rounded-[32px] border border-white/10 bg-white/5 p-8 backdrop-blur-xl shadow-glow hover-glow-card" data-reveal data-reveal-delay="160">
             <p class="text-sm text-white/60 uppercase tracking-[0.4em]">Dezvoltare & automatizări</p>
             <h2 class="text-2xl font-semibold mt-3">Adrian Dragomir</h2>
             <p class="text-white/70 mt-4">
-                Dezvoltator Laravel și arhitect IT. Construiește site-uri rapide, landing-uri și integrări cu CRM/WhatsApp astfel încât lead-urile din social media să
-                ajungă direct în procesele tale interne.
+                Programator Full-Stack & Arhitect de Soluții. Specialist Laravel cu peste 10 ani de experiență în dezvoltarea de aplicații web complexe, integrări API și sisteme de automatizare care transformă afacerile digitale.
             </p>
-            <ul class="mt-6 space-y-2 text-sm text-white/70">
-                <li>8+ ani în dezvoltare full-stack</li>
-                <li>Automatizări și dashboard-uri personalizate</li>
-                <li>Optimizează fluxurile echipelor cu tool-uri custom</li>
+            <ul class="mt-6 space-y-3 text-sm text-white/70">
+                <li class="flex items-start gap-3">
+                    <span class="h-2 w-2 rounded-full bg-neon mt-1.5"></span>
+                    10+ ani în dezvoltare software (specializat Laravel & VueJS)
+                </li>
+                <li class="flex items-start gap-3">
+                    <span class="h-2 w-2 rounded-full bg-neon mt-1.5"></span>
+                    Arhitecturi scalabile și automatizări de business complexe
+                </li>
+                <li class="flex items-start gap-3">
+                    <span class="h-2 w-2 rounded-full bg-neon mt-1.5"></span>
+                    Sisteme custom de monitorizare și dashboard-uri de performanță
+                </li>
             </ul>
         </article>
     </section>
+
 
     <section class="max-w-5xl mx-auto px-6 pb-12 text-center" data-reveal>
         <h2 class="text-3xl lg:text-4xl font-semibold">Lucrăm ca un studio integrat.</h2>

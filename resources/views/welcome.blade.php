@@ -22,7 +22,7 @@
                     Creăm prezențe puternice pe Facebook, Instagram și TikTok
                 </h1>
                 <p data-reveal data-reveal-delay="200" class="mt-6 text-lg text-white/70 max-w-2xl">
-                    Scriem planuri simple, filmăm conținut scurt, administrăm paginile zilnic și legăm totul de un site care primește cererile venite din social media. Suntem localizați în Târgoviște și colaborăm cu branduri din județul Dâmbovița și din restul țării.
+                    Gândim strategii clare, filmăm conținut pentru Reels & TikTok, administrăm interacțiunile zilnice și integrăm totul cu un site optimizat să convertească atenția în cereri de ofertă. Suntem localizați în Târgoviște și colaborăm cu branduri din județul Dâmbovița și din restul țării.
                 </p>
                 <div data-reveal data-reveal-delay="280" class="mt-10 flex flex-col sm:flex-row gap-4">
                     <a href="{{ route('contact') }}" class="px-8 py-4 rounded-2xl bg-neon text-black font-semibold text-lg shadow-glow glow-pulse hover-cta text-center">
@@ -34,14 +34,15 @@
                 </div>
                 <div data-reveal data-reveal-delay="360" class="mt-12 grid grid-cols-2 gap-6 text-sm text-white/70">
                     <div class="transition duration-700">
-                        <p class="text-3xl font-semibold text-white">120+</p>
+                        <p class="text-3xl font-semibold text-white" data-counter data-target="120" data-suffix="+">0+</p>
                         <p>campanii sociale livrate cap-coadă</p>
                     </div>
                     <div class="transition duration-700">
-                        <p class="text-3xl font-semibold text-white">40+</p>
+                        <p class="text-3xl font-semibold text-white" data-counter data-target="40" data-suffix="+">0+</p>
                         <p>serii foto-video făcute în teren</p>
                     </div>
                 </div>
+
             </div>
             <div class="relative" data-reveal="right" data-reveal-delay="220">
                 <div class="absolute -top-6 -right-6 w-32 h-32 bg-white/5 rounded-3xl blur-3xl animate-float-medium"></div>
@@ -51,7 +52,7 @@
                         <div class="relative">
                             <p class="text-sm uppercase tracking-[0.3em] text-white/60">Panou Social Live</p>
                             <h3 class="mt-2 text-2xl font-semibold">Reacții, DM-uri și rezervări</h3>
-                            <p class="mt-2 text-white/70 text-sm">Monitorizăm într-un singur tab tot ce vine din Instagram, Facebook și TikTok: aprecieri, salvări, mesaje și formularul de rezervare.</p>
+                            <p class="mt-2 text-white/70 text-sm">Monitorizăm în timp real tot ce contează: de la mesaje în DM și comentarii, până la formularele de rezervare. Nu pierzi nicio oportunitate, indiferent că vine de pe Instagram, Facebook sau TikTok</p>
                        
                             <div class="mt-6 rounded-2xl border border-white/10 bg-gradient-to-r from-white/5 to-white/0 p-4">
                                 <div class="flex items-center justify-between text-sm">
@@ -75,8 +76,8 @@
                             class="h-64 w-full object-cover"
                         />
                         <div class="p-5">
-                            <p class="text-sm uppercase tracking-[0.4em] text-white/60">Behind the scenes</p>
-                            <p class="text-white/75 text-sm mt-2">Filmări și producție de conținut pentru campaniile sociale.</p>
+                            <p class="text-sm uppercase tracking-[0.4em] text-white/60">Suntem pe teren, nu doar în spatele tastaturii</p>
+                            <p class="text-white/75 text-sm mt-2">Venim la sediul tău, filmăm materialele brute și producem conținutul vizual care oprește scroll-ul. Transformăm atmosfera din afacerea ta în campanii care vând.</p>
                         </div>
                     </div>
                 </div>
@@ -88,58 +89,59 @@
     <section id="servicii" class="max-w-6xl mx-auto px-6 py-20 border-t border-white/5">
         <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6" data-reveal>
             <div>
-                <p class="text-sm uppercase tracking-[0.4em] text-white/50">Capabilități</p>
-                <h2 class="text-3xl lg:text-4xl font-semibold mt-3">Social-first marketing, producție și software într-o singură echipă.</h2>
+                <p class="text-sm uppercase tracking-[0.4em] text-white/50">Ce facem pentru tine</p>
+                <h2 class="text-3xl lg:text-4xl font-semibold mt-3">Echipa ta de marketing, filmări și site — tot ce ai nevoie, într-un singur loc.</h2>
             </div>
             <p class="text-white/70 max-w-xl">
-                Strategii, copywriteri și producători de conținut lucrează împreună cu dezvoltatorii noștri web pentru a face calendare clare, instrumente simple și mesaje automate care aduc clienți.
+                Nu mai pierzi timpul cu zeci de colaboratori pentru poze, reclame sau site. Lucrăm împreună ca să-ți aducem clienți și să-ți ușurăm munca zilnică prin instrumente digitale moderne.
             </p>
         </div>
         <div class="mt-14 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <article data-reveal class="group border border-white/5 rounded-3xl p-6 bg-white/5 hover:bg-white/10 transition backdrop-blur-xl hover-lift">
                 <div class="h-12 w-12 rounded-2xl bg-white/10 flex items-center justify-center mb-6 text-neon">
-                    <x-icon-strategy class="w-6 h-6" />
+                    <x-icon-grid class="w-6 h-6" />
                 </div>
-                <h3 class="text-xl font-semibold">Strategie Social Media</h3>
-                <p class="mt-3 text-white/70">Stabilim pilonii de conținut, tonul și tipurile de postări pentru fiecare rețea.</p>
+                <h3 class="text-xl font-semibold">Plan de postări</h3>
+                <p class="mt-3 text-white/70">Stabilim exact ce postăm, pe ce platformă și când este momentul cel mai bun, ca să fim siguri că mesajul tău ajunge la clienții care contează.</p>
             </article>
             <article data-reveal data-reveal-delay="120" class="group border border-white/5 rounded-3xl p-6 bg-white/5 hover:bg-white/10 transition backdrop-blur-xl hover-lift">
                 <div class="h-12 w-12 rounded-2xl bg-white/10 flex items-center justify-center mb-6 text-neon">
-                    <x-icon-devices class="w-6 h-6" />
+                    <x-icon-chat class="w-6 h-6" />
                 </div>
-                <h3 class="text-xl font-semibold">Operare Facebook & Instagram</h3>
-                <p class="mt-3 text-white/70">Scriem textele, programăm postările, răspundem la comentarii și trimitem un raport simplu.</p>
+                <h3 class="text-xl font-semibold">Administrare Pagini</h3>
+                <p class="mt-3 text-white/70">Ne ocupăm de tot: scriem textele, punem pozele și clipurile la orele potrivite și răspundem rapid la toate comentariile primite de la clienți.</p>
             </article>
             <article data-reveal data-reveal-delay="180" class="group border border-white/5 rounded-3xl p-6 bg-white/5 hover:bg-white/10 transition backdrop-blur-xl hover-lift">
                 <div class="h-12 w-12 rounded-2xl bg-white/10 flex items-center justify-center mb-6 text-neon">
                     <x-icon-bolt class="w-6 h-6" />
                 </div>
-                <h3 class="text-xl font-semibold">Reclame pe Facebook & Instagram</h3>
-                <p class="mt-3 text-white/70">Împărțim bugetele pe campanii clare și optimizăm zilnic pentru mesaje și vânzări.</p>
+                <h3 class="text-xl font-semibold">Reclame cu Rezultate</h3>
+                <p class="mt-3 text-white/70">Găsim clienții potriviți din zona ta și te ajutăm să vinzi mai mult prin campanii plătite pe care le urmărim și le optimizăm în fiecare zi.</p>
             </article>
             <article data-reveal data-reveal-delay="240" class="group border border-white/5 rounded-3xl p-6 bg-white/5 hover:bg-white/10 transition backdrop-blur-xl hover-lift">
                 <div class="h-12 w-12 rounded-2xl bg-white/10 flex items-center justify-center mb-6 text-neon">
                     <x-icon-camera class="w-6 h-6" />
                 </div>
-                <h3 class="text-xl font-semibold">Studio Conținut</h3>
-                <p class="mt-3 text-white/70">Venim cu echipă foto-video, filmăm Reels, testimoniale și cadre pentru reclame.</p>
+                <h3 class="text-xl font-semibold">Filmări & Poze</h3>
+                <p class="mt-3 text-white/70">Venim direct la tine în locație cu echipă profesionistă să filmăm Reels, testimoniale și cadre de calitate care opresc scroll-ul și atrag atenția.</p>
             </article>
             <article data-reveal data-reveal-delay="300" class="group border border-white/5 rounded-3xl p-6 bg-white/5 hover:bg-white/10 transition backdrop-blur-xl hover-lift">
                 <div class="h-12 w-12 rounded-2xl bg-white/10 flex items-center justify-center mb-6 text-neon">
                     <x-icon-monitor class="w-6 h-6" />
                 </div>
-                <h3 class="text-xl font-semibold">Pagini Web pentru campanii</h3>
-                <p class="mt-3 text-white/70">Construim pagini rapide care preiau cererile venite din social media și le trimit către echipa ta.</p>
+                <h3 class="text-xl font-semibold">Site-uri Rapide</h3>
+                <p class="mt-3 text-white/70">Construim pagini moderne și simple de unde clienții te pot contacta sau își pot face o programare imediat, fără să mai piardă timpul prin mesaje.</p>
             </article>
             <article data-reveal data-reveal-delay="360" class="group border border-white/5 rounded-3xl p-6 bg-white/5 hover:bg-white/10 transition backdrop-blur-xl hover-lift">
                 <div class="h-12 w-12 rounded-2xl bg-white/10 flex items-center justify-center mb-6 text-neon">
                     <x-icon-grid class="w-6 h-6" />
                 </div>
-                <h3 class="text-xl font-semibold">Fluxuri și automatizări</h3>
-                <p class="mt-3 text-white/70">Automatizăm aprobările, calendarele și mesajele astfel încât echipa ta să câștige timp.</p>
+                <h3 class="text-xl font-semibold">Muncă Automatizată</h3>
+                <p class="mt-3 text-white/70">Punem tehnologia să lucreze pentru afacerea ta: de la mesaje automate pe WhatsApp până la rapoartele de vânzări pe care le primești direct pe telefon.</p>
             </article>
         </div>
     </section>
+
 
     <!-- Prețuri -->
     <section id="preturi" class="max-w-6xl mx-auto px-6 py-20 border-t border-white/5">
@@ -147,8 +149,7 @@
             <p class="text-sm uppercase tracking-[0.4em] text-white/50">Planuri & prețuri</p>
             <h2 class="text-3xl lg:text-4xl font-semibold">Alege serviciul potrivit și primești costurile pe loc.</h2>
             <p class="text-white/70 max-w-3xl mx-auto">
-                Pachetele includ strategia, implementarea și raportarea la care adăugăm integrarea tehnică necesară. Ne adaptăm pentru fiecare industrie,
-                însă iată direcțiile și bugetele orientative cu care începem colaborările.
+                Pachetele noastre includ tot ce ai nevoie: strategie, postări și rezultate clare. Ne adaptăm pentru fiecare afacere, dar iată bugetele de la care începem colaborările.
             </p>
         </div>
         <div class="mt-10" data-tab-group="pricing">
@@ -163,61 +164,61 @@
                         <p class="text-sm uppercase tracking-[0.4em] text-white/50">Plan lunar</p>
                         <h3 class="text-3xl font-semibold mt-3">Social Media Growth</h3>
                         <p class="text-white/70 mt-4">
-                            Strategie, producție și administrare pentru Facebook, Instagram și TikTok. Include sesiuni de filmare, copywriting zilnic și optimizarea
-                            reclamelor Meta.
+                            Ne ocupăm de tot: de la idei și filmări până la postarea zilnică pe Facebook, Instagram și TikTok. Tu doar aprobi conținutul de pe telefon.
                         </p>
                         <ul class="mt-6 space-y-3 text-white/80 text-sm">
                             <li class="flex items-start gap-3">
                                 <span class="h-2 w-2 rounded-full bg-neon mt-2"></span>
-                                16-20 postări lunare + Reels filmate în teren
+                                Postări și filmări Reels (venim la sediul tău)
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="h-2 w-2 rounded-full bg-neon mt-2"></span>
-                                Administrare reclame Meta Ads și rapoarte săptămânale
+                                Administrare reclame și rapoarte pe înțelesul tău
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="h-2 w-2 rounded-full bg-neon mt-2"></span>
-                                Automatizări DM + conectare la CRM/WhatsApp
+                                Răspunsuri automate și conectare cu WhatsApp
                             </li>
                         </ul>
                         <div class="mt-8 flex flex-col gap-3">
-                            <p class="text-4xl font-semibold text-white">de la 900 EUR / lună</p>
-                            <p class="text-white/60 text-sm">Minim 3 luni. Include strategie inițială și ședințe săptămânale cu fondatorii.</p>
+                            <p class="text-4xl font-semibold text-white">de la 250 EUR / lună</p>
+                            <p class="text-white/60 text-sm">Ideal pentru afaceri locale care vor să crească constant în fiecare lună.</p>
                         </div>
                         <a href="{{ route('contact') }}" class="mt-8 inline-flex px-8 py-4 rounded-2xl bg-neon text-black font-semibold text-lg shadow-glow hover-cta w-full sm:w-auto">Programează o discuție</a>
                     </div>
                     <div class="rounded-3xl border border-white/10 bg-white/5 p-6 space-y-5">
                         <div>
                             <p class="text-sm text-white/60">Ce obții</p>
-                            <p class="text-2xl font-semibold text-white mt-2">Panou social + rapoarte live</p>
-                            <p class="text-white/60 text-sm mt-2">Calendar editorial, status filmări și rezultate din ads într-un singur spațiu.</p>
+                            <p class="text-2xl font-semibold text-white mt-2">Aprobare rapidă de pe telefon</p>
+                            <p class="text-white/60 text-sm mt-2">Vezi postările înainte să apară și aprobi totul cu un singur click, de oriunde te-ai afla.</p>
+                        </div>
+
+                        <div class="rounded-2xl border border-white/10 bg-gradient-to-r from-white/5 to-transparent p-4">
+                            <p class="text-white text-lg">72% mai multe programări</p>
+                            <p class="text-white/60 text-sm">Creștere vizibilă a pacienților și clienților în primele 90 de zile.</p>
                         </div>
                         <div class="rounded-2xl border border-white/10 bg-gradient-to-r from-white/5 to-transparent p-4">
-                            <p class="text-white text-lg">72% mai multe rezervări</p>
-                            <p class="text-white/60 text-sm">After 90 days pentru clinicile locale.</p>
+                            <p class="text-white text-lg">+45% mesaje prin WhatsApp</p>
+                            <p class="text-white/60 text-sm">Răspunsuri automate care transformă întrebările în programări cerute.</p>
                         </div>
                         <div class="rounded-2xl border border-white/10 bg-gradient-to-r from-white/5 to-transparent p-4">
-                            <p class="text-white text-lg">+45% mesaje calificate</p>
-                            <p class="text-white/60 text-sm">Creștere în inbox și WhatsApp după automatizările DM.</p>
-                        </div>
-                        <div class="rounded-2xl border border-white/10 bg-gradient-to-r from-white/5 to-transparent p-4">
-                            <p class="text-white text-lg">4.1x ROAS pe Meta</p>
-                            <p class="text-white/60 text-sm">Optimizare săptămânală a campaniilor de conversie.</p>
+                            <p class="text-white text-lg">Profit din reclame</p>
+                            <p class="text-white/60 text-sm">Optimizăm zilnic campaniile ca să ai cele mai mici costuri posibile.</p>
                         </div>
                     </div>
                 </div>
+
                 <div class="rounded-[32px] border border-white/10 bg-white/5 p-8 grid gap-8 lg:grid-cols-[1.2fr_0.8fr]" data-tab-panel="web" hidden>
                     <div>
                         <p class="text-sm uppercase tracking-[0.4em] text-white/50">Proiect la cheie</p>
                         <h3 class="text-3xl font-semibold mt-3">Creare site & landing pages</h3>
                         <p class="text-white/70 mt-4">
-                            De la arhitectură și UX la dezvoltare Laravel/Tailwind, conectăm formularele la CRM și pregătim toate automatizările necesare
-                            campaniilor din social media.
+                            Ne ocupăm de tot procesul, de la structură și design până la dezvoltare și lansare. Site-ul este pregătit pentru conversii și conectat la sistemele pe care le folosești.
                         </p>
                         <ul class="mt-6 space-y-3 text-white/80 text-sm">
                             <li class="flex items-start gap-3">
                                 <span class="h-2 w-2 rounded-full bg-neon mt-2"></span>
-                                Audit structură + wireframes și copy pentru fiecare pagină
+                                Planificare structură, conținut și design pentru fiecare pagină
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="h-2 w-2 rounded-full bg-neon mt-2"></span>
@@ -225,12 +226,16 @@
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="h-2 w-2 rounded-full bg-neon mt-2"></span>
-                                Optimizare viteză, SEO on-page și training pentru echipa ta
+                                Optimizare viteză și configurare pentru Google
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="h-2 w-2 rounded-full bg-neon mt-2"></span>
+                                Dezvoltare custom, fără teme sau pluginuri standard
                             </li>
                         </ul>
                         <div class="mt-8 flex flex-col gap-3">
-                            <p class="text-4xl font-semibold text-white">de la 2.400 EUR / proiect</p>
-                            <p class="text-white/60 text-sm">Termen mediu: 4-6 săptămâni. Include 2 runde de revizie și suport la lansare.</p>
+                            <p class="text-4xl font-semibold text-white">de la 250EUR / site</p>
+                            <p class="text-white/60 text-sm">Termen mediu: 2-3 săptămâni. Include 2 runde de revizie și suport la lansare.</p>
                         </div>
                         <a href="{{ route('contact') }}" class="mt-8 inline-flex px-8 py-4 rounded-2xl border border-white/30 text-white font-semibold text-lg hover:border-white/60 hover-cta w-full sm:w-auto">Cere ofertă web</a>
                     </div>
@@ -242,46 +247,55 @@
                         </div>
                         <div class="rounded-2xl border border-white/10 bg-gradient-to-r from-white/5 to-transparent p-4">
                             <p class="text-white text-lg">Scor PageSpeed 90+</p>
-                            <p class="text-white/60 text-sm">Monitorizat atât pe mobil cât și pe desktop.</p>
+                            <p class="text-white/60 text-sm">Optimizat pentru viteză și utilizare pe orice dispozitiv.</p>
                         </div>
                         <div class="rounded-2xl border border-white/10 bg-gradient-to-r from-white/5 to-transparent p-4">
-                            <p class="text-white text-lg">Integrări CRM în 48h</p>
-                            <p class="text-white/60 text-sm">Formularele ajung direct în HubSpot / Zoho fără efort.</p>
+                            <p class="text-white text-lg">Integrare CRM și automatizări</p>
+                            <p class="text-white/60 text-sm">Cererile ajung direct în sistemele tale.</p>
                         </div>
                         <div class="rounded-2xl border border-white/10 bg-gradient-to-r from-white/5 to-transparent p-4">
-                            <p class="text-white text-lg">+30% conversii landing</p>
-                            <p class="text-white/60 text-sm">Testăm layout-ul și CTA-urile până atingem ținta.</p>
+                            <p class="text-white text-lg">Scalabil și pregătit pentru viitor</p>
+                            <p class="text-white/60 text-sm">Site-ul poate fi extins ușor, pe măsură ce afacerea ta crește.</p>
                         </div>
                     </div>
                 </div>
                 <div class="rounded-[32px] border border-white/10 bg-white/5 p-8 grid gap-8 lg:grid-cols-[1.2fr_0.8fr]" data-tab-panel="seo" hidden>
                     <div>
-                        <p class="text-sm uppercase tracking-[0.4em] text-white/50">Retainer lunar</p>
-                        <h3 class="text-3xl font-semibold mt-3">SEO local & național</h3>
+                        <p class="text-sm uppercase tracking-[0.4em] text-white/50">Analiză & Optimizare</p>
+                        <h3 class="text-3xl font-semibold mt-3">Înțelege de ce pierzi clienți din Google</h3>
                         <p class="text-white/70 mt-4">
-                            Optimizăm site-ul, Google Business Profile și conținutul astfel încât să fii prezent în primele rezultate pentru serviciile tale,
-                            în Târgoviște, Dâmbovița și la nivel național.
+                            Verificăm tot ce ține de site-ul tău și profilul de business ca să te asigurăm că ești găsit ușor de clienții din zona ta.
                         </p>
                         <ul class="mt-6 space-y-3 text-white/80 text-sm">
                             <li class="flex items-start gap-3">
                                 <span class="h-2 w-2 rounded-full bg-neon mt-2"></span>
-                                Audit tehnic + implementare rapidă a recomandărilor critice
+                                Analiză completă site: viteză, structură, indexare
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="h-2 w-2 rounded-full bg-neon mt-2"></span>
-                                Content briefs, articole și optimizarea listărilor locale
+                                Optimizare pagini principale (titluri, descrieri, conținut)
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="h-2 w-2 rounded-full bg-neon mt-2"></span>
-                                Dashboard cu poziții, apeluri și lead-uri organice
+                                Optimizare profil Google Business
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="h-2 w-2 rounded-full bg-neon mt-2"></span>
+                                Configurare și verificare Google Search Console
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="h-2 w-2 rounded-full bg-neon mt-2"></span>
+                                Raport clar cu acțiuni prioritare
                             </li>
                         </ul>
                         <div class="mt-8 flex flex-col gap-3">
-                            <p class="text-4xl font-semibold text-white">de la 750 EUR / lună</p>
-                            <p class="text-white/60 text-sm">Contract minim 3 luni. Raportăm lunar și ajustăm acțiunile în funcție de rezultate.</p>
+                            <p class="text-4xl font-semibold text-white">200 EUR</p>
+                            <p class="text-white/60 text-sm">O singură dată sau abonament lunar pentru rezultate constante.</p>
                         </div>
+
                         <a href="{{ route('contact') }}" class="mt-8 inline-flex px-8 py-4 rounded-2xl bg-neon text-black font-semibold text-lg shadow-glow hover-cta w-full sm:w-auto">Solicită audit SEO</a>
                     </div>
+
                     <div class="rounded-3xl border border-white/10 bg-white/5 p-6 space-y-5">
                         <div>
                             <p class="text-sm text-white/60">Monitorizare</p>
@@ -298,7 +312,7 @@
                         </div>
                         <div class="rounded-2xl border border-white/10 bg-gradient-to-r from-white/5 to-transparent p-4">
                             <p class="text-white text-lg">+55% apeluri organice</p>
-                            <p class="text-white/60 text-sm">Lună 4 pentru servicii locale din Dâmbovița.</p>
+                            <p class="text-white/60 text-sm">In doar 4 luni pentru servicii locale din Dâmbovița.</p>
                         </div>
                     </div>
                 </div>
@@ -306,61 +320,61 @@
         </div>
     </section>
 
-    <!-- Diferențiatori -->
-    <section class="max-w-6xl mx-auto px-6 py-20 flex flex-col lg:flex-row gap-16 items-center">
+    <!-- De ce noi -->
+    <section id="why-us" class="max-w-6xl mx-auto px-6 py-20 flex flex-col lg:flex-row gap-12 items-center">
         <div class="flex-1" data-reveal>
-            <p class="text-sm uppercase tracking-[0.4em] text-white/50">De ce noi</p>
-            <h2 class="text-4xl font-semibold mt-4">Agențiile postează. Noi coordonăm social media cap-coadă.</h2>
+            <p class="text-sm uppercase tracking-[0.4em] text-white/50">De ce să lucrezi cu noi?</p>
+            <h2 class="text-3xl lg:text-4xl font-semibold mt-4">Nu doar postăm, ci ne ocupăm de tot succesul tău online.</h2>
             <p class="mt-4 text-white/70">
-                Folosim o platformă construită de noi pentru brief-uri, calendare și aprobări, astfel încât postările, reclamele și site-ul tău să lucreze împreună fără haos.
+                Am creat o metodă simplă prin care tu vezi exact ce postăm, aprobi totul rapid de pe telefon și ai control total. Postările, reclamele și site-ul tău vor lucra împreună, fără să mai pierzi timpul cu zeci de telefoane sau mesaje.
             </p>
             <ul class="mt-8 space-y-4 text-white/80">
                 <li class="flex items-center gap-3">
                     <span class="h-3 w-3 rounded-full bg-neon"></span>
-                    Plan clar de conținut + producție
+                    Plan clar de postări și filmări
                 </li>
                 <li class="flex items-center gap-3">
                     <span class="h-3 w-3 rounded-full bg-neon"></span>
-                    Facebook, Instagram și TikTok aliniate
+                    Facebook, Instagram și TikTok, toate la zi
                 </li>
                 <li class="flex items-center gap-3">
                     <span class="h-3 w-3 rounded-full bg-neon"></span>
-                    Mesaje automate + legături cu baza ta de date
+                    Răspunsuri automate pentru clienții tăi
                 </li>
                 <li class="flex items-center gap-3">
                     <span class="h-3 w-3 rounded-full bg-neon"></span>
-                    Panouri simple, actualizate în timp real
+                    Vezi rezultatele în timp real, pe telefon
                 </li>
             </ul>
         </div>
         <div class="flex-1 w-full" data-reveal="right" data-reveal-delay="160">
-            <div class="rounded-[32px] border border-white/10 bg-charcoal/80 p-6 backdrop-blur-2xl relative overflow-hidden soft-grid animate-float-slow">
+            <div class="rounded-[32px] border border-white/10 bg-charcoal/80 p-6 backdrop-blur-2xl relative overflow-hidden soft-grid">
                 <div class="absolute inset-0 opacity-10"></div>
                 <div class="relative grid gap-4">
                     <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
                         <div class="flex items-center justify-between text-sm text-white/60">
-                            <span>Calendar social + automatizări</span>
-                            <span>Live</span>
+                            <span>Planul tău social</span>
+                            <span>Activ acum</span>
                         </div>
                         <div class="mt-3 space-y-3 text-white">
                             <div class="flex items-center justify-between">
-                                <p>Carusel clinică</p>
-                                <span class="text-emerald-300 text-xs">+3,2% click</span>
+                                <p>Exemplu: Postare Clinică</p>
+                                <span class="text-emerald-300 text-xs text-right">Oamenii dau click</span>
                             </div>
                             <div class="flex items-center justify-between">
                                 <p>Mesaje automate</p>
-                                <span class="text-emerald-300 text-xs">-37% timp de răspuns</span>
+                                <span class="text-emerald-300 text-xs text-right">Răspunsuri mult mai rapide</span>
                             </div>
                             <div class="flex items-center justify-between">
-                                <p>Actualizare stoc promo</p>
-                                <span class="text-emerald-300 text-xs">12 conexiuni</span>
+                                <p>Oferte actualizate instant</p>
+                                <span class="text-emerald-300 text-xs text-right">Conectat peste tot</span>
                             </div>
                         </div>
                     </div>
                     <div class="rounded-2xl border border-white/10 bg-gradient-to-r from-white/5 to-white/0 p-4">
-                        <p class="text-sm text-white/60">Scor experiență</p>
+                        <p class="text-sm text-white/60">Nota noastră de performanță</p>
                         <p class="text-4xl font-semibold mt-2">96 / 100</p>
-                        <p class="text-white/60 text-sm mt-2">Engagement, retenție, execuție creativă, automatizare</p>
+                        <p class="text-white/60 text-sm mt-2">Aprecieri, clienți noi și design premium</p>
                         <div class="mt-4 h-2 rounded-full bg-white/10">
                             <div class="h-2 rounded-full bg-neon" style="width: 96%"></div>
                         </div>
@@ -368,14 +382,15 @@
                     <div class="rounded-2xl border border-white/10 bg-white/5 p-4 flex items-center gap-4">
                         <div class="h-12 w-12 rounded-2xl bg-white/10 flex items-center justify-center">∞</div>
                         <div>
-                            <p class="text-white font-semibold">Stack social + engineering</p>
-                            <p class="text-white/60 text-sm">Content studio, media buying și dev în același tablou de bord live.</p>
+                            <p class="text-white font-semibold">Totul într-un singur loc</p>
+                            <p class="text-white/60 text-sm">Filmări, reclame și site-ul tău, toate sub controlul tău.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- Clienți -->
     <section id="clienti" class="max-w-6xl mx-auto px-6 py-20">
@@ -386,18 +401,18 @@
         <div class="mt-10 grid gap-6 md:grid-cols-3">
             <a href="https://www.elidadent.ro" target="_blank" rel="noopener" class="group rounded-2xl border border-white/10 bg-white/5 p-6 flex flex-col items-center gap-3 transition hover:-translate-y-1 hover:bg-white/10">
                 <span class="text-xs uppercase tracking-[0.4em] text-white/50">Social Media & Ads</span>
-                <img src="{{ asset('images/logo.png') }}" alt="Elida Dent" class="max-h-12 invert" />
+                <img src="{{ asset('images/logo.png') }}" alt="Elidadent" class="max-h-12 invert" />
                 <p class="text-white/60 text-xs">Conținut zilnic + Meta Ads</p>
             </a>
             <a href="https://www.elidadentforkids.ro" target="_blank" rel="noopener" class="group rounded-2xl border border-white/10 bg-white/5 p-6 flex flex-col items-center gap-3 transition hover:-translate-y-1 hover:bg-white/10">
                 <span class="text-xs uppercase tracking-[0.4em] text-white/50">Campanii video</span>
-                <img src="{{ asset('images/logo-f.png') }}" alt="Elida Dent For Kids" class="max-h-12" />
+                <img src="{{ asset('images/logo-f.png') }}" alt="Elidadent For Kids" class="max-h-12" />
                 <p class="text-white/60 text-xs">Reels & stories pentru părinți</p>
             </a>
-            <a href="https://www.softambient.ro" target="_blank" rel="noopener" class="group rounded-2xl border border-white/10 bg-white/5 p-6 flex flex-col items-center gap-3 transition hover:-translate-y-1 hover:bg-white/10">
-                <span class="text-xs uppercase tracking-[0.4em] text-white/50">PPC + conținut</span>
-                <img src="{{ asset('images/Logo_Softambient.svg') }}" alt="Softambient" class="max-h-12 invert" />
-                <p class="text-white/60 text-xs">Facebook Ads + email nurturing</p>
+            <a href="#" target="_blank" rel="noopener" class="group rounded-2xl border border-white/10 bg-white/5 p-6 flex flex-col items-center gap-3 transition hover:-translate-y-1 hover:bg-white/10">
+                <span class="text-xs uppercase tracking-[0.4em] text-white/50">Web Design</span>
+                <div class="h-12 flex items-center justify-center text-white font-bold text-xl uppercase tracking-tighter italic">EdmanTravel</div>
+                <p class="text-white/60 text-xs">Creare site agenție turism</p>
             </a>
         </div>
     </section>
@@ -406,53 +421,53 @@
     <section id="web" class="max-w-6xl mx-auto px-6 py-20 border-t border-white/5">
         <div class="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] items-center">
             <div data-reveal>
-                <p class="text-sm uppercase tracking-[0.4em] text-white/50">Site-uri pentru social media</p>
-                <h2 class="text-3xl lg:text-4xl font-semibold mt-3">Construim site-uri care preiau rapid cererile venite din rețele.</h2>
+                <p class="text-sm uppercase tracking-[0.4em] text-white/50">Creare site-uri web</p>
+                <h2 class="text-3xl lg:text-4xl font-semibold mt-3">Facem site-uri moderne care îți aduc clienți noi din prima zi.</h2>
                 <p class="mt-4 text-white/70">
-                    Livrăm site-uri de prezentare, magazine online, platforme cu automatizări și aplicații custom care arată impecabil pe mobil și desktop. Ne ocupăm de arhitectură, conținut și formulare conectate la CRM, WhatsApp sau alte fluxuri interne pentru branduri din Târgoviște, Dâmbovița și colaboratori naționali.
+                    Construim site-uri de prezentare, magazine online și pagini pentru oferte care se încarcă rapid și arată perfect pe orice telefon. Integrăm formulare de rezervare online direct pe site-ul tău, ca să primești toate programările rapid și organizat.
                 </p>
                 <div class="mt-8 grid gap-6 md:grid-cols-2 text-white/70">
                     <div class="rounded-3xl border border-white/10 bg-white/5 p-5 hover-lift-sm" data-reveal>
-                        <h3 class="text-xl font-semibold text-white">Pagini de campanie</h3>
-                        <p class="mt-3">Pentru promoții rapide, lansări sau lead magnets. Se încarcă repede și se actualizează ușor.</p>
+                        <h3 class="text-xl font-semibold text-white">Pagini pt. oferte</h3>
+                        <p class="mt-3">Perfecte pentru servicii noi sau promoții limitate. Simple, rapide și eficiente.</p>
                     </div>
+
                     <div class="rounded-3xl border border-white/10 bg-white/5 p-5 hover-lift-sm" data-reveal data-reveal-delay="120">
-                        <h3 class="text-xl font-semibold text-white">Site-uri complete</h3>
-                        <p class="mt-3">Structură cu homepage, servicii, portofoliu și blog, plus integrare cu programări sau coș de cumpărături.</p>
+                        <h3 class="text-xl font-semibold text-white">Site-uri de prezentare</h3>
+                        <p class="mt-3">Tot ce are nevoie afacerea ta: servicii, poze, contact și formular online de rezervare.</p>
                     </div>
                 </div>
                 <div class="mt-8 flex flex-wrap gap-4" data-reveal data-reveal-delay="200">
-                    <div class="px-5 py-2 rounded-full border border-white/20 text-sm text-white/80">Design modern cu accente premium</div>
-                    <div class="px-5 py-2 rounded-full border border-white/20 text-sm text-white/80">Optimizare pentru mobil și SEO local</div>
-                    <div class="px-5 py-2 rounded-full border border-white/20 text-sm text-white/80">Formulare conectate la social & email</div>
+                    <div class="px-5 py-2 rounded-full border border-white/20 text-sm text-white/80">Arată impecabil pe orice telefon</div>
+                    <div class="px-5 py-2 rounded-full border border-white/20 text-sm text-white/80">Găsit ușor pe Google (SEO local)</div>
+                    <div class="px-5 py-2 rounded-full border border-white/20 text-sm text-white/80">Formular online de rezervare direct pe site</div>
                 </div>
                 <button class="mt-10 px-8 py-4 rounded-2xl bg-neon text-black font-semibold text-lg shadow-glow glow-pulse hover-cta" data-reveal data-reveal-delay="260">
-                    Cere ofertă pentru site
+                    Vreau un site nou
                 </button>
                 <div class="mt-6 rounded-2xl border border-white/10 bg-white/5 p-5" data-reveal data-reveal-delay="320">
-                    <p class="text-sm uppercase tracking-[0.4em] text-white/60">Creare site web în Târgoviște</p>
+                    <p class="text-sm uppercase tracking-[0.4em] text-white/60">Site-uri web în Târgoviște</p>
                     <p class="text-white/75 text-sm mt-2">
-                        Ne ocupăm de creare site web pentru branduri din Târgoviște, Dâmbovița și din alte orașe, cu focus pe conversii și integrare cu campaniile sociale. De la arhitectură, UX și copy până la lansare și monitorizare, totul rămâne într-o singură echipă.
+                        Ne ocupăm de tot ce înseamnă prezența ta online: de la design și text până la lansare. Facem site-uri care nu doar arată bine, ci sunt construite să transforme vizitatorii în clienți fideli prin sisteme de rezervare simple.
                     </p>
                 </div>
             </div>
             <div class="relative" data-reveal="right" data-reveal-delay="180">
-                <div class="absolute -top-10 -left-6 w-32 h-32 bg-white/10 rounded-3xl blur-3xl animate-float-medium"></div>
+                <div class="absolute -top-10 -left-6 w-32 h-32 bg-white/10 rounded-3xl blur-3xl"></div>
                 <div class="rounded-[32px] border border-white/10 bg-white/5 backdrop-blur-xl p-6 shadow-glow relative overflow-hidden">
                     <div class="absolute inset-0 opacity-10 bg-gradient-to-b from-white/10 to-transparent"></div>
                     <div class="relative space-y-6">
                         <div>
-                            <p class="text-sm text-white/60">Pagină ofertă restaurant</p>
-                            <p class="text-2xl font-semibold">Nord Bistro</p>
-                            <p class="text-white/70 text-sm mt-2">Link din Instagram bio → meniu, galerie, rezervare în 3 pași.</p>
+                            <p class="text-sm text-white/60">Meniu și Rezervări</p>
+                            <p class="text-2xl font-semibold">Exemplu Restaurant</p>
+                            <p class="text-white/70 text-sm mt-2">Link din Instagram bio → clienții văd meniul și completează formularul de rezervare în 10 secunde.</p>
                         </div>
                         <div class="rounded-2xl border border-white/10 bg-white/10 p-4">
                             <div class="flex items-center justify-between text-sm text-white/60">
-                                <span>Formular rapid</span>
-                                <span>24 mesaje/zi</span>
+                                <span>Rezervări prin formular online</span>
                             </div>
-                            <p class="text-white text-lg mt-3">“Salut! Vrem masa pentru 4 persoane.”</p>
-                            <p class="text-neon text-sm mt-2">Trimitem direct în WhatsApp.</p>
+                            <p class="text-white text-lg mt-3">“Bună ziua! Vrem o masă pentru 4 persoane diseară.”</p>
+                            <p class="text-neon text-sm mt-2">Rezervarea apare direct în sistemul tău.</p>
                         </div>
                         <div class="grid grid-cols-2 gap-4 text-sm text-white/70">
                             <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
@@ -461,15 +476,14 @@
                                 <span class="text-white/50 text-xs">vizualizări</span>
                             </div>
                             <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
-                                <p>Rezervări online</p>
-                                <p class="text-2xl text-white mt-1">32 / zi</p>
+                                <p>Rezervări prin formular</p>
+                                <p class="text-2xl text-white mt-1">Peste 30 / zi</p>
                                 <span class="text-white/50 text-xs">din social</span>
                             </div>
                         </div>
                         <div class="rounded-2xl border border-white/10 bg-gradient-to-r from-white/10 to-transparent p-4">
-                            <p class="text-sm text-white/60">Integrare</p>
+                            <p class="text-sm text-white/60">Totul integrat</p>
                             <p class="text-white text-lg mt-2">Website + Facebook + Instagram + Google Reviews</p>
-                            <p class="text-white/50 text-sm mt-2">Actualizăm doar o dată, se schimbă peste tot.</p>
                         </div>
                     </div>
                 </div>
@@ -477,114 +491,122 @@
         </div>
     </section>
 
+
+
     <!-- Portofoliu -->
     <section id="portofoliu" class="max-w-6xl mx-auto px-6 py-20 border-t border-white/5">
         <div class="flex flex-col gap-4" data-reveal>
             <p class="text-sm uppercase tracking-[0.4em] text-white/50">Clienți & rezultate</p>
-            <h2 class="text-3xl lg:text-4xl font-semibold">Social media și campanii digitale pentru branduri din Târgoviște, Dâmbovița și nu numai.</h2>
+            <h2 class="text-3xl lg:text-4xl font-semibold">Proiecte locale și rezultate reale pentru afaceri din Târgoviște și județul Dâmbovița.</h2>
         </div>
         <div class="mt-12 grid gap-8 md:grid-cols-3">
             <article data-reveal class="group rounded-[28px] border border-white/5 bg-white/5 p-4 overflow-hidden hover-lift">
                 <div class="relative h-48 rounded-2xl overflow-hidden hover-zoom">
                     <img
-                        src="{{ asset('images/portfolio/clinic.webp') }}"
-                        alt="Clinic digital"
+                        src="{{ asset('images/portfolio/elida_dent.png') }}"
+                        alt="Elidadent - Clinică Stomatologică"
                         loading="lazy"
                         class="h-full w-full object-cover"
                     />
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                     <div class="absolute bottom-4 left-4 px-3 py-1 text-xs uppercase tracking-[0.3em] bg-black/40 rounded-full">
-                        Platformă clinică
+                        Social Media & Ads
                     </div>
                 </div>
                 <div class="mt-6">
-                    <h3 class="text-xl font-semibold">Strategie medicală</h3>
-                    <p class="mt-2 text-white/70 text-sm">Conținut educațional, Meta Ads și mini-site pentru clinici care vor să-și crească rezervările.</p>
+                    <h3 class="text-xl font-semibold">Elidadent - Clinică Stomatologică</h3>
+                    <p class="mt-2 text-white/70 text-sm">Gestionăm rețelele sociale și campaniile de marketing. Suntem prezenți zilnic pe Facebook, Instagram și TikTok pentru a aduce pacienți noi.</p>
                     <ul class="text-white/50 text-xs space-y-1 mt-3">
-                        <li>42 clipuri video + Reels</li>
-                        <li>Landing page conectat la CRM</li>
-                        <li>+72% consultații într-un sezon</li>
+                        <li>Facebook & Instagram Ads</li>
+                        <li>Conținut video zilnic</li>
+                        <li>Management campanii marketing</li>
                     </ul>
                 </div>
             </article>
             <article data-reveal data-reveal-delay="140" class="group rounded-[28px] border border-white/5 bg-white/5 p-4 overflow-hidden hover-lift">
                 <div class="relative h-48 rounded-2xl overflow-hidden hover-zoom">
                     <img
-                        src="{{ asset('images/portfolio/resto.webp') }}"
-                        alt="Restaurant elegant"
+                        src="{{ asset('images/portfolio/elida_dent_kids.png') }}"
+                        alt="Elidadent For Kids - Stomatologie Copii"
                         loading="lazy"
                         class="h-full w-full object-cover"
                     />
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                     <div class="absolute bottom-4 left-4 px-3 py-1 text-xs uppercase tracking-[0.3em] bg-black/40 rounded-full">
-                        Hospitality
+                        Campanii & Evenimente
                     </div>
                 </div>
                 <div class="mt-6">
-                    <h3 class="text-xl font-semibold">HoReCa locală</h3>
-                    <p class="mt-2 text-white/70 text-sm">Reels, stories și campanii DM/WhatsApp care transformă interesul în rezervări și comenzi.</p>
+                    <h3 class="text-xl font-semibold">Elidadent For Kids - Stomatologie Copii</h3>
+                    <p class="mt-2 text-white/70 text-sm">Promovăm serviciile pentru copii prin campanii video atractive și organizăm evenimente locale de promovare a sănătății dentare.</p>
                     <ul class="text-white/50 text-xs space-y-1 mt-3">
-                        <li>Plan editorial + shooting lunar</li>
-                        <li>Automatizări pentru rezervări rapide</li>
-                        <li>Creștere constantă a vizitelor</li>
+                        <li>Campanii Reels & TikTok</li>
+                        <li>Organizare evenimente locale</li>
+                        <li>Marketing offline & online</li>
                     </ul>
                 </div>
             </article>
             <article data-reveal data-reveal-delay="220" class="group rounded-[28px] border border-white/5 bg-white/5 p-4 overflow-hidden hover-lift">
                 <div class="relative h-48 rounded-2xl overflow-hidden hover-zoom">
                     <img
-                        src="{{ asset('images/portfolio/saas.webp') }}"
-                        alt="Board digital și echipă logistică"
+                        src="{{ asset('images/portfolio/edman_travel.png') }}"
+                        alt="EdmanTravel - Agenție de Turism"
                         loading="lazy"
                         class="h-full w-full object-cover"
                     />
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                     <div class="absolute bottom-4 left-4 px-3 py-1 text-xs uppercase tracking-[0.3em] bg-black/40 rounded-full">
-                        SaaS Build
+                        Site Creat Integral
                     </div>
+
                 </div>
                 <div class="mt-6">
-                    <h3 class="text-xl font-semibold">B2B & logistică</h3>
-                    <p class="mt-2 text-white/70 text-sm">LinkedIn Ads, email nurturing și rapoarte live pentru echipele care vând către companii.</p>
+                    <h3 class="text-xl font-semibold">EdmanTravel - Agenție de Turism</h3>
+
+                    <p class="mt-2 text-white/70 text-sm">Am construit un site modern și rapid pentru agenția de turism, optimizat să preia cererile de vacanță direct în sistem.</p>
                     <ul class="text-white/50 text-xs space-y-1 mt-3">
-                        <li>Campanii LinkedIn + studii video</li>
-                        <li>Dashboard-uri live pentru parteneri</li>
-                        <li>Automatizări pentru lead management</li>
+                        <li>Creare site agenție turism</li>
+                        <li>Design modern & rapid</li>
+                        <li>Sistem preluare cereri</li>
                     </ul>
                 </div>
             </article>
         </div>
     </section>
 
+
     <!-- Proces -->
     <section id="proces" class="max-w-6xl mx-auto px-6 py-20">
         <div class="flex flex-col gap-4" data-reveal>
             <p class="text-sm uppercase tracking-[0.4em] text-white/50">Proces</p>
-            <h2 class="text-3xl lg:text-4xl font-semibold">De la audit social la producție zilnică și optimizare continuă.</h2>
+            <h2 class="text-3xl lg:text-4xl font-semibold">Cum lucrăm împreună ca să ai rezultate?</h2>
+
+
         </div>
         <div class="mt-12 grid gap-6 md:grid-cols-4">
             <div data-reveal class="rounded-3xl border border-white/5 bg-white/5 p-6 hover-lift-sm">
                 <p class="text-sm text-white/50">Pas 1</p>
-                <h3 class="text-2xl font-semibold mt-2">Strategie</h3>
-                <p class="mt-3 text-white/70 text-sm">Audit profiluri, mapping audience, obiective pe platforme și KPI social commerce.</p>
+                <h3 class="text-2xl font-semibold mt-2">Planificare</h3>
+                <p class="mt-3 text-white/70 text-sm">Ne uităm la paginile tale, vedem cine sunt clienții și stabilim ce vrem să obținem: mesaje, apeluri sau vânzări.</p>
             </div>
             <div data-reveal data-reveal-delay="120" class="rounded-3xl border border-white/5 bg-white/5 p-6 hover-lift-sm">
                 <p class="text-sm text-white/50">Pas 2</p>
-                <h3 class="text-2xl font-semibold mt-2">Producție</h3>
-                <p class="mt-3 text-white/70 text-sm">Calendar editorial, scenarii pentru Reels, filmări și pachete de materiale pentru fiecare canal.</p>
+                <h3 class="text-2xl font-semibold mt-2">Filmări & Postări</h3>
+                <p class="mt-3 text-white/70 text-sm">Venim la tine, filmăm clipuri (Reels) și facem poze, apoi pregătim tot planul de postări pentru toată luna.</p>
             </div>
             <div data-reveal data-reveal-delay="200" class="rounded-3xl border border-white/5 bg-white/5 p-6 hover-lift-sm">
                 <p class="text-sm text-white/50">Pas 3</p>
-                <h3 class="text-2xl font-semibold mt-2">Dezvoltare</h3>
-                <p class="mt-3 text-white/70 text-sm">Aplicații interne pentru aprobare rapidă, pagini simple și legături cu CRM sau WhatsApp.</p>
+                <h3 class="text-2xl font-semibold mt-2">Site & Contact</h3>
+                <p class="mt-3 text-white/70 text-sm">Facem site-ul sau paginile de prezentare și le legăm de WhatsApp, ca să primești cererile clienților direct pe telefon.</p>
             </div>
             <div data-reveal data-reveal-delay="280" class="rounded-3xl border border-white/5 bg-white/5 p-6 hover-lift-sm">
                 <p class="text-sm text-white/50">Pas 4</p>
-                <h3 class="text-2xl font-semibold mt-2">Growth</h3>
-                <p class="mt-3 text-white/70 text-sm">Analizăm săptămânal rezultatele sociale, scalăm ads-urile și lansăm experimente creative.</p>
+                <h3 class="text-2xl font-semibold mt-2">Reclame & Profit</h3>
+                <p class="mt-3 text-white/70 text-sm">Pornim reclamele, urmărim zilnic câți oameni au venit și îmbunătățim totul ca să ai costuri cât mai mici.</p>
             </div>
         </div>
     </section>
+
 
     <!-- Testimoniale -->
     <section id="testimoniale" class="max-w-6xl mx-auto px-6 py-20 border-t border-white/5">
@@ -595,20 +617,20 @@
         <div class="mt-12 grid gap-8 md:grid-cols-2">
             <article data-reveal class="rounded-[32px] border border-white/5 bg-white/5 p-8 backdrop-blur-xl hover-glow-card">
                 <p class="text-white/80 text-lg">
-                    “Media Challenge ne conduce acum Facebook-ul și Instagram-ul: calendar editorial, shooting-uri, ads și landing dedicat. Rezervările vin din social mai repede ca oricând.”
+                    “Media Challenge ne gestionează întreaga prezență online. De la Reels-uri zilnice până la campanii complexe de marketing, rezultatele se văd în numărul tot mai mare de pacienți care ne trec pragul.”
                 </p>
                 <div class="mt-6">
-                    <p class="font-semibold">Dr. Lena Matsu</p>
-                    <p class="text-white/60 text-sm">Fondator, Ember Clinics</p>
+                    <p class="font-semibold">Dr. Elida Carpiuc</p>
+                    <p class="text-white/60 text-sm">Fondator, Elidadent & Elidadent For Kids</p>
                 </div>
             </article>
             <article data-reveal data-reveal-delay="160" class="rounded-[32px] border border-white/5 bg-white/5 p-8 backdrop-blur-xl hover-glow-card">
                 <p class="text-white/80 text-lg">
-                    “Postările nu ne mai reprezentau. Echipa lor a preluat tot workflow-ul social media, a livrat Reels săptămânale și un hub de raportare care arată clar ce converteste.”
+                    “Colaborarea pentru noul site al agenției a fost excelentă. Am primit o platformă rapidă, modernă și foarte ușor de folosit de către clienții noștri, exact așa cum ne-am dorit.”
                 </p>
                 <div class="mt-6">
-                    <p class="font-semibold">Caleb Ortiz</p>
-                    <p class="text-white/60 text-sm">COO, Northwind Hospitality</p>
+                    <p class="font-semibold">Nicolae Dragomir</p>
+                    <p class="text-white/60 text-sm">Fondator, EdmanTravel</p>
                 </div>
             </article>
         </div>
@@ -640,23 +662,23 @@
                         class="h-64 w-full object-cover"
                     />
                 </div>
-                <p class="text-sm uppercase tracking-[0.4em] text-white/50">Concept mobil</p>
-                <h2 class="text-3xl font-semibold mt-3">Social media la îndemână.</h2>
+                <p class="text-sm uppercase tracking-[0.4em] text-white/50">Afacerea ta, direct pe telefon</p>
+                <h2 class="text-3xl font-semibold mt-3">Social media, mai simplu.</h2>
                 <p class="mt-4 text-white/70">
-                    Experiența mobilă scoate în față pilonii de conținut, rezultatele din Reels și CTA-ul “Cere ofertă”. Cardurile devin panouri swipeable astfel încât administratorii să urmărească rapid performanța socială.
+                    Tot ce postăm pentru tine e ușor de urmărit direct de pe mobil. Vezi imediat câte vizualizări au clipurile tale și primești cererile de ofertă instant.
                 </p>
             </div>
             <div class="flex-1 flex justify-center" data-reveal="right" data-reveal-delay="200">
-                <div class="w-72 rounded-[42px] border-4 border-white/20 bg-black/90 p-5 relative shadow-[0_20px_60px_rgba(0,0,0,0.6)] animate-float-slow">
+                <div class="w-72 rounded-[42px] border-4 border-white/20 bg-black/90 p-5 relative shadow-[0_20px_60px_rgba(0,0,0,0.6)]">
                     <div class="absolute top-3 left-1/2 -translate-x-1/2 w-16 h-1 rounded-full bg-white/20"></div>
                     <div class="mt-8 space-y-6">
                         <div class="space-y-3">
                             <p class="text-xs text-white/60 uppercase tracking-[0.4em]">Media Challenge</p>
-                            <h3 class="text-2xl font-semibold">Social media crescută cu strategie + tech custom.</h3>
-                            <button class="w-full mt-4 px-5 py-3 rounded-2xl bg-neon text-black font-semibold hover-cta">Cere ofertă</button>
+                            <h3 class="text-2xl font-semibold">Creștem afacerea ta cu idei bune și tehnologie modernă.</h3>
+                            <button class="w-full mt-4 px-5 py-3 rounded-2xl bg-neon text-black font-semibold hover-cta">Vreau o ofertă</button>
                         </div>
                         <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
-                            <p class="text-sm text-white/60">Postări programate</p>
+                            <p class="text-sm text-white/60">Postări pe lună</p>
                             <p class="text-2xl font-semibold">48</p>
                             <div class="mt-2 h-1.5 rounded-full bg-white/10">
                                 <div class="h-1.5 rounded-full bg-neon" style="width: 80%"></div>
@@ -666,17 +688,18 @@
                             <p class="text-sm text-white/60 uppercase tracking-[0.4em]">Servicii</p>
                             <ul class="mt-3 space-y-2 text-sm">
                                 <li class="flex items-center justify-between">
-                                    Strategie Socială <span class="text-white/50">›</span>
+                                    Plan de postări <span class="text-white/50">›</span>
                                 </li>
                                 <li class="flex items-center justify-between">
-                                    Conținut Instagram <span class="text-white/50">›</span>
+                                    Poze și Video <span class="text-white/50">›</span>
                                 </li>
                                 <li class="flex items-center justify-between">
-                                    Automatizări DM <span class="text-white/50">›</span>
+                                    Răspunsuri automate <span class="text-white/50">›</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>

@@ -36,34 +36,87 @@
     </section>
 
     <section class="max-w-6xl mx-auto px-6 py-12 grid gap-6 md:grid-cols-3" id="pachete">
-        <article class="rounded-3xl border border-white/10 bg-white/5 p-6 hover-lift-sm">
-            <p class="text-sm text-white/60">Plan Start</p>
-            <h3 class="text-2xl font-semibold mt-2">Prezență constantă</h3>
+        <article class="rounded-3xl border border-white/10 bg-white/5 p-6 hover-glow-card">
+            <p class="text-sm text-white/60">Administrare & Reclame</p>
+            <h3 class="text-2xl font-semibold mt-2">250 EUR / lună</h3>
             <ul class="mt-4 space-y-2 text-white/70 text-sm">
-                <li>Calendar și copy pentru 3 postări / săptămână</li>
-                <li>Șabloane grafice incluse</li>
-                <li>Raport lunar simplu</li>
+                <li class="flex items-start gap-3"><span class="h-1.5 w-1.5 rounded-full bg-neon mt-1.5"></span>Postări constante pe Facebook & Instagram</li>
+                <li class="flex items-start gap-3"><span class="h-1.5 w-1.5 rounded-full bg-neon mt-1.5"></span>Gestionare reclame (Ads) pentru clienți noi</li>
+                <li class="flex items-start gap-3"><span class="h-1.5 w-1.5 rounded-full bg-neon mt-1.5"></span>Răspunsuri la mesaje și comentarii</li>
             </ul>
         </article>
-        <article class="rounded-3xl border border-white/10 bg-white/5 p-6 hover-lift-sm">
-            <p class="text-sm text-white/60">Plan Growth</p>
-            <h3 class="text-2xl font-semibold mt-2">Content + Ads</h3>
+        <article class="rounded-3xl border border-white/10 bg-white/5 p-6 hover-glow-card border-neon/30">
+            <p class="text-sm text-neon font-medium">Cel mai căutat</p>
+            <h3 class="text-2xl font-semibold mt-2">600 EUR / lună</h3>
+            <p class="text-white/60 text-xs mt-1">Include filmare profesionistă</p>
             <ul class="mt-4 space-y-2 text-white/70 text-sm">
-                <li>Postări zilnice + Reels</li>
-                <li>Administrare reclame Meta</li>
-                <li>Răspuns la comentarii & mesaje</li>
+                <li class="flex items-start gap-3"><span class="h-1.5 w-1.5 rounded-full bg-neon mt-1.5"></span>Venim la tine și filmăm Reels & TikTok</li>
+                <li class="flex items-start gap-3"><span class="h-1.5 w-1.5 rounded-full bg-neon mt-1.5"></span>Editare video profesională inclusă</li>
+                <li class="flex items-start gap-3"><span class="h-1.5 w-1.5 rounded-full bg-neon mt-1.5"></span>Strategie completă de creștere</li>
             </ul>
         </article>
-        <article class="rounded-3xl border border-white/10 bg-white/5 p-6 hover-lift-sm">
-            <p class="text-sm text-white/60">Plan Premium</p>
-            <h3 class="text-2xl font-semibold mt-2">Studio complet</h3>
+        <article class="rounded-3xl border border-white/10 bg-white/5 p-6 hover-glow-card">
+            <p class="text-sm text-white/60">Pachet Full</p>
+            <h3 class="text-2xl font-semibold mt-2">Cerere Ofertă</h3>
             <ul class="mt-4 space-y-2 text-white/70 text-sm">
-                <li>Shooting lunar foto-video</li>
-                <li>Automatizări WhatsApp/CRM</li>
-                <li>Raport săptămânal + consultanță</li>
+                <li class="flex items-start gap-3"><span class="h-1.5 w-1.5 rounded-full bg-neon mt-1.5"></span>Tot ce e mai sus + Automatizări WhatsApp</li>
+                <li class="flex items-start gap-3"><span class="h-1.5 w-1.5 rounded-full bg-neon mt-1.5"></span>Integrare sistem rezervări / CRM</li>
+                <li class="flex items-start gap-3"><span class="h-1.5 w-1.5 rounded-full bg-neon mt-1.5"></span>Consultant dedicat afacerii tale</li>
             </ul>
         </article>
     </section>
+
+    <section class="max-w-6xl mx-auto px-6 py-12 space-y-8" id="preturi">
+        <div class="text-center" data-reveal>
+            <p class="text-sm uppercase tracking-[0.4em] text-white/60">Detalii Prețuri</p>
+            <h2 class="text-3xl lg:text-4xl font-semibold mt-3">Investiția ta în social media.</h2>
+            <p class="text-white/70 mt-4">Prețurile de mai jos sunt transparente și acoperă tot ce ai nevoie pentru o prezență solidă.</p>
+        </div>
+        <div class="grid gap-6 lg:grid-cols-3">
+            <article class="rounded-[28px] border border-white/10 bg-white/5 p-6 space-y-4" data-reveal>
+                <div>
+                    <p class="text-sm text-white/60">Administrare</p>
+                    <h3 class="text-2xl font-semibold">Social Media Basic</h3>
+                    <p class="text-white/70 text-sm mt-2">Ideal pentru branduri care vor prezență constantă.</p>
+                </div>
+                <p class="text-3xl font-semibold text-white">250 EUR / lună</p>
+                <ul class="space-y-2 text-white/70 text-sm">
+                    <li>Gestionare Facebook & Instagram</li>
+                    <li>Administrare campanii de reclame</li>
+                    <li>Răspunsuri la mesaje & comentarii</li>
+                </ul>
+            </article>
+            <article class="rounded-[28px] border border-white/10 bg-white/5 p-6 space-y-4 border-neon/30" data-reveal data-reveal-delay="120">
+                <div>
+                    <p class="text-sm text-neon font-medium">Recomandat</p>
+                    <h3 class="text-2xl font-semibold">Full Video & Reels</h3>
+                    <p class="text-white/70 text-sm mt-2">Venim periodic la tine să filmăm materiale noi.</p>
+                </div>
+                <p class="text-3xl font-semibold text-white">600 EUR / lună</p>
+                <ul class="space-y-2 text-white/70 text-sm">
+                    <li>Filmare profesionistă (venim local)</li>
+                    <li>Editare video & Scenarii Reels</li>
+                    <li>Postare zilnică + Administrare reclame</li>
+                </ul>
+            </article>
+            <article class="rounded-[28px] border border-white/10 bg-white/5 p-6 space-y-4" data-reveal data-reveal-delay="200">
+                <div>
+                    <p class="text-sm text-white/60">Strategie Custom</p>
+                    <h3 class="text-2xl font-semibold">Pachet Full</h3>
+                    <p class="text-white/70 text-sm mt-2">Soluții avansate pentru afaceri și rețele mari.</p>
+                </div>
+
+                <ul class="space-y-3 text-white/80 text-sm">
+                    <li><span class="text-white">+200 EUR</span> · Automatizări WhatsApp</li>
+                    <li><span class="text-white">+150 EUR</span> · Raportare detaliată lunară</li>
+                    <li><span class="text-white">Custom</span> · Shooting-uri foto dedicate</li>
+                </ul>
+                <a href="{{ route('contact') }}" class="mt-4 block text-center py-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition">Cere Ofertă</a>
+            </article>
+        </div>
+        <p class="text-center text-white/70 text-sm" data-reveal>Bugetul pentru reclame se stabilește împreună și se plătește direct către platforme.</p>
+    </section>
+
 
     <section class="max-w-6xl mx-auto px-6 py-12 grid gap-10 lg:grid-cols-2">
         <div class="space-y-6">
@@ -83,9 +136,9 @@
         </div>
         <div class="rounded-[32px] border border-white/10 bg-white/5 backdrop-blur-xl p-6 shadow-glow space-y-6">
             <div>
-                <p class="text-sm text-white/60 uppercase tracking-[0.4em]">Rezultate recente</p>
-                <h3 class="text-2xl font-semibold mt-2">Clinicile Eterna</h3>
-                <p class="text-white/70 mt-2">Campanie cu Reels educaționale + reclame pentru programări gratuite.</p>
+                <p class="text-sm text-white/60 uppercase tracking-[0.4em]">Rezultate Reale</p>
+                <h3 class="text-2xl font-semibold mt-2">Elidadent Târgoviște</h3>
+                <p class="text-white/70 mt-2">Administrare completă social media + filmări Reels săptămânale.</p>
             </div>
             <div class="grid grid-cols-2 gap-4 text-sm text-white/70">
                 <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
@@ -93,15 +146,16 @@
                     <p class="mt-1">Programări din mesaje</p>
                 </div>
                 <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
-                    <p class="text-3xl text-white">4.1x</p>
-                    <p class="mt-1">ROAS campanii Meta</p>
+                    <p class="text-3xl text-white">4.2x</p>
+                    <p class="mt-1">ROAS campanii Facebook</p>
                 </div>
             </div>
             <div class="rounded-2xl border border-white/10 bg-gradient-to-r from-white/10 to-transparent p-4">
-                <p class="text-white text-lg">“Echipa lor ne ține conturile active fără stres. Vin cu idei, filmează și ne trimit raportul pe românește.”</p>
-                <p class="text-white/60 text-sm mt-3">— Dr. Ana Marinescu</p>
+                <p class="text-white text-lg">“Echipa Media Challenge ne-a eliberat de grija postărilor. Vin, filmează tot ce trebuie, iar noi vedem rezultatele direct în numărul de pacienți.”</p>
+                <p class="text-white/60 text-sm mt-3">— Dr. Elida Carpiuc, Fondator Elidadent</p>
             </div>
         </div>
+
     </section>
 
     <section class="max-w-4xl mx-auto px-6 py-16 text-center">

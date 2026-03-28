@@ -74,16 +74,21 @@
                 <p class="text-sm text-white/60">Birou</p>
                 <h2 class="text-2xl font-semibold">Târgoviște</h2>
                 <p class="text-white/70 mt-2">Strada Profesor Nicolae Radian nr. 2, bl. O2, ap. 10. Programăm întâlniri fizice sau online în funcție de proiect.</p>
+                <a href="https://maps.app.goo.gl/U5kgySxWoA7d21Ns9" target="_blank" rel="noopener" class="mt-4 inline-flex items-center gap-2 text-neon text-sm hover:underline">
+                    <x-icon-monitor class="w-4 h-4" />
+                    Vezi pe Google Maps
+                </a>
             </div>
             <div class="rounded-2xl overflow-hidden border border-white/10 aspect-[4/3]">
                 <iframe
                     class="w-full h-full"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2845.3143614075654!2d26.098664315535946!3d44.43551397910257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff3c2fb878b7%3A0x4c9f64e4da8932b4!2sBucharest!5e0!3m2!1sen!2sro!4v1712000000000"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.298458737229!2d25.46142717666244!3d44.91724217107718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40ad2792da0c6563%3A0xc6659616ae905436!2sStrada%20Profesor%20Nicolae%20Radian%202%2C%20T%C3%A2rgovi%C8%99te%20130069!5e0!3m2!1sen!2sro!4v1711632280000!5m2!1sen!2sro"
                     style="border:0"
                     allowfullscreen=""
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"
                 ></iframe>
+
             </div>
             <div class="space-y-3 text-white/70">
                 <p><span class="text-white">Telefon:</span> +40 723 000 111</p>
