@@ -141,10 +141,36 @@
                 ></iframe>
 
             </div>
-            <div class="space-y-3 text-white/70">
-                <p><span class="text-white">Telefon:</span> <a href="tel:0736854081" class="hover:text-neon transition-colors">0736 854 081</a></p>
-                <p><span class="text-white">Email:</span> contact@mediachallenge.ro</p>
-                <p><span class="text-white">Program:</span> Luni - Vineri, 09:00 - 18:00</p>
+            <div class="space-y-6 pt-6 border-t border-white/5">
+                <div class="flex items-start gap-4">
+                    <div class="h-10 w-10 rounded-xl bg-white/5 flex items-center justify-center shrink-0">
+                        <x-icon-phone class="w-5 h-5 text-neon" />
+                    </div>
+                    <div>
+                        <p class="text-white font-medium">Telefon</p>
+                        <a href="tel:0736854081" class="text-white/70 text-sm mt-1 hover:text-neon transition-colors block">0736 854 081</a>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                    <div class="h-10 w-10 rounded-xl bg-white/5 flex items-center justify-center shrink-0">
+                        <x-icon-mail class="w-4 h-4 text-neon" />
+                    </div>
+                    <div>
+                        <p class="text-white font-medium">Email</p>
+                        <a href="mailto:contact@mediachallenge.ro" class="text-white/70 text-sm mt-1 hover:text-neon transition-colors block">contact@mediachallenge.ro</a>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                    <div class="h-10 w-10 rounded-xl bg-white/5 flex items-center justify-center shrink-0">
+                        <x-icon-clock class="w-5 h-5 text-neon" />
+                    </div>
+                    <div>
+                        <p class="text-white font-medium">Program de Lucru</p>
+                        <p class="text-white/70 text-sm mt-1">Luni - Vineri, 09:00 - 18:00</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
