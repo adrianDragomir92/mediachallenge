@@ -11,6 +11,12 @@ class ContactController extends Controller
 {
     public function __invoke(ContactRequest $request)
     {
+        // Simple Honeypot check
+        if ($request->filled('website_url')) {
+            Log::info('Honeypot caught a bot', ['ip' => $request->ip()]);
+            return back()->with('status', 'Mesajul a fost trimis. Revenim în cel mai scurt timp.');
+        }
+
         $data = $request->validated();
 
         try {

@@ -68,8 +68,9 @@
                     <div class="rounded-[32px] border border-white/10 bg-white/5 overflow-hidden shadow-glow">
                         <img
                             src="{{ asset('images/behind-scenes.webp') }}"
-                            alt="Echipă Media Challenge lucrând la conținut video"
+                            alt="Echipă Media Challenge lucrând la strategii de social media și conținut video"
                             class="h-64 w-full object-cover"
+                            loading="lazy"
                         />
                         <div class="p-5">
                             <p class="text-sm uppercase tracking-[0.4em] text-white/60">Suntem pe teren, nu doar în spatele tastaturii</p>

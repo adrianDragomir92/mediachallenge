@@ -3,6 +3,25 @@
 @section('title', 'SEO Local Târgoviște & Dâmbovița | Media Challenge')
 @section('meta_description', 'Optimizare SEO locală și națională pentru afaceri din Târgoviște și județul Dâmbovița: Google Business Profile, conținut, link-building și rapoarte clare.')
 
+@push('head')
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Local SEO",
+    "provider": {
+        "@type": "LocalBusiness",
+        "name": "Media Challenge"
+    },
+    "areaServed": {
+        "@type": "City",
+        "name": "Târgoviște"
+    },
+    "description": "Optimizare pentru motoarele de căutare, Google Maps și audit SEO complet."
+}
+</script>
+@endpush
+
 @section('background')
     <div class="absolute inset-0 bg-gradient-to-b from-[#0b0f1d] via-midnight to-midnight"></div>
     <div class="absolute -top-32 right-20 h-96 w-96 rounded-full bg-[#267674] blur-[200px] opacity-70"></div>

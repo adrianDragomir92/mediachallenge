@@ -3,6 +3,25 @@
 @section('title', 'Social Media Târgoviște & Dâmbovița | Media Challenge')
 @section('meta_description', 'Servicii social media complete în Târgoviște și județul Dâmbovița: strategie, conținut, Meta Ads, TikTok și raportare clară oferite de Media Challenge.')
 
+@push('head')
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Social Media Marketing",
+    "provider": {
+        "@type": "LocalBusiness",
+        "name": "Media Challenge"
+    },
+    "areaServed": {
+        "@type": "City",
+        "name": "Târgoviște"
+    },
+    "description": "Gestionare Facebook, Instagram și TikTok, strategie de conținut și campanii Meta Ads."
+}
+</script>
+@endpush
+
 @section('background')
     <div class="absolute inset-0 bg-gradient-to-b from-[#0b0f1d] via-midnight to-midnight"></div>
     <div class="absolute -top-32 left-10 h-96 w-96 rounded-full bg-[#372f7c] blur-[180px] opacity-80"></div>

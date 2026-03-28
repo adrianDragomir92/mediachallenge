@@ -30,16 +30,13 @@
                 </li>
                 <li><a href="tel:0736854081" class="hover:text-white">0736 854 081</a></li>
                 <li class="flex gap-4 text-white/60 pt-2">
-                    <a href="https://maps.app.goo.gl/U5kgySxWoA7d21Ns9" target="_blank" rel="noopener" class="hover:text-white" aria-label="Google Maps">
+                    <a href="https://maps.app.goo.gl/U5kgySxWoA7d21Ns9" target="_blank" rel="noopener" class="hover:text-white" aria-label="Vezi locația Media Challenge pe Google Maps">
                         <x-icon-map class="w-5 h-5" />
                     </a>
-                    <a href="https://www.facebook.com/MadaMania2020" target="_blank" rel="noopener" class="hover:text-white" aria-label="Facebook">
+                    <a href="https://www.facebook.com/mediachallenge.ro" target="_blank" rel="noopener" class="hover:text-white" aria-label="Urmărește Media Challenge pe Facebook">
                         <x-icon-facebook class="w-5 h-5" />
                     </a>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="hover:text-white" aria-label="Instagram">
-                        <x-icon-instagram class="w-5 h-5" />
-                    </a>
-                    <a href="https://www.tiktok.com/@media.challenge" target="_blank" rel="noopener" class="hover:text-white" aria-label="TikTok">
+                    <a href="https://www.tiktok.com/@mediachallenge.ro" target="_blank" rel="noopener" class="hover:text-white" aria-label="Urmărește Media Challenge pe TikTok">
                         <x-icon-tiktok class="w-5 h-5" />
                     </a>
                 </li>

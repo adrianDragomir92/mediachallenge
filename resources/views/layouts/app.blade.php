@@ -23,6 +23,7 @@
             href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
             rel="stylesheet"
         />
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" as="style">
         @vite(['resources/css/app.css', 'resources/js/app.js'])
         <script type="application/ld+json">
             {
@@ -44,6 +45,37 @@
                 "description": "Media Challenge oferă servicii de social media, conținut și dezvoltare web pentru branduri din Târgoviște, Dâmbovița și din România.",
                 "areaServed": ["Târgoviște", "Dâmbovița", "România"],
                 "serviceType": ["Social Media", "Dezvoltare site-uri", "SEO"]
+            }
+        </script>
+        @php
+            $breadcrumbs = [['name' => 'Acasă', 'url' => url('/')]];
+            $path = request()->path();
+            if ($path !== '/') {
+                $segments = explode('/', $path);
+                $currentUrl = url('/');
+                foreach ($segments as $segment) {
+                    $currentUrl .= '/' . $segment;
+                    $breadcrumbs[] = [
+                        'name' => ucwords(str_replace('-', ' ', $segment)),
+                        'url' => $currentUrl
+                    ];
+                }
+            }
+        @endphp
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    @foreach ($breadcrumbs as $index => $crumb)
+                    {
+                        "@type": "ListItem",
+                        "position": {{ $index + 1 }},
+                        "name": "{{ $crumb['name'] }}",
+                        "item": "{{ $crumb['url'] }}"
+                    }{{ !$loop->last ? ',' : '' }}
+                    @endforeach
+                ]
             }
         </script>
         @stack('head')
@@ -95,10 +127,10 @@
                     type="button"
                     class="md:hidden inline-flex items-center justify-center h-11 w-11 rounded-2xl border border-white/20 text-white"
                     data-mobile-nav-toggle
-                    aria-label="Deschide meniul"
+                    aria-label="Deschide meniul principal de navigație"
                 >
                     <span class="sr-only">Deschide meniul</span>
-                    <x-icon-hamburger class="w-6 h-6" />
+                    <x-icon-hamburger class="w-6 h-6" aria-hidden="true" />
                 </button>
             </header>
 
@@ -110,13 +142,14 @@
                     <div class="flex items-center justify-between">
                     <div class="flex items-center gap-3">
                         <div class="h-10 w-10 rounded-2xl bg-white/10 flex items-center justify-center shadow-glow">
-                            <x-app-logo class="h-8 w-8" />
+                            <x-app-logo class="h-8 w-8" aria-hidden="true" />
                         </div>
                         <p class="text-white font-semibold">Media Challenge</p>
                     </div>
-                        <button type="button" class="h-11 w-11 rounded-2xl border border-white/20 text-white flex items-center justify-center" data-mobile-nav-close aria-label="Închide meniul">
-                            <x-icon-close class="w-6 h-6" />
+                        <button type="button" class="h-11 w-11 rounded-2xl border border-white/20 text-white flex items-center justify-center" data-mobile-nav-close aria-label="Închide meniul de navigație">
+                            <x-icon-close class="w-6 h-6" aria-hidden="true" />
                         </button>
+
                     </div>
                     <nav class="flex flex-col gap-6 text-white text-lg">
                         <a href="{{ url('/') }}" class="hover:text-neon {{ request()->is('/') ? 'text-neon font-semibold' : '' }}">Acasă</a>

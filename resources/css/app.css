@@ -21,6 +21,11 @@ body {
     color: #f7fafc;
 }
 
+:focus-visible {
+    outline: 2px solid var(--color-neon);
+    outline-offset: 4px;
+}
+
 .soft-grid::after {
     content: '';
     position: absolute;
@@ -147,9 +152,11 @@ body {
     0% {
         transform: translateY(0px) scale(1);
     }
+
     50% {
         transform: translateY(-18px) scale(1.01);
     }
+
     100% {
         transform: translateY(0px) scale(1);
     }
@@ -159,9 +166,11 @@ body {
     0% {
         transform: translateY(0px) translateX(0px);
     }
+
     50% {
         transform: translateY(-12px) translateX(6px);
     }
+
     100% {
         transform: translateY(0px) translateX(0px);
     }
@@ -171,21 +180,28 @@ body {
     0% {
         box-shadow: var(--shadow-glow);
     }
+
     50% {
         box-shadow: 0 30px 60px rgba(108, 99, 255, 0.55);
     }
+
     100% {
         box-shadow: var(--shadow-glow);
     }
 }
 
 @keyframes shimmer {
-    0% { background-position: -200% 0; }
-    100% { background-position: 200% 0; }
+    0% {
+        background-position: -200% 0;
+    }
+
+    100% {
+        background-position: 200% 0;
+    }
 }
 
 .badge-animated {
-    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.05) 50%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0) 100%);
     background-size: 200% 100%;
     animation: shimmer 6s infinite linear;
     transition: all 0.3s ease;
@@ -231,6 +247,7 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
     .animate-float-slow,
     .animate-float-medium,
     .glow-pulse {

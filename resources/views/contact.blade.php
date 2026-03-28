@@ -21,6 +21,12 @@
     <section class="max-w-6xl mx-auto px-6 pb-16 grid gap-10 lg:grid-cols-2">
         <form action="{{ route('contact.send') }}" method="POST" class="rounded-[32px] border border-white/10 bg-white/5 p-8 shadow-glow space-y-6">
             @csrf
+            
+            {{-- Honeypot field --}}
+            <div class="hidden">
+                 <label for="website_url">Website</label>
+                 <input type="text" id="website_url" name="website_url" tabindex="-1" autocomplete="off">
+            </div>
             @if (session('status'))
                 <div class="rounded-2xl border border-emerald-400/40 bg-emerald-400/10 px-4 py-3 text-sm text-emerald-200">
                     {{ session('status') }}
@@ -28,17 +34,23 @@
             @endif
             <div>
                 <label for="nume" class="text-sm text-white/60">Nume și prenume</label>
-                <input id="nume" name="nume" type="text" value="{{ old('nume') }}" placeholder="Numele tău complet" class="mt-2 w-full rounded-2xl bg-midnight/60 border border-white/10 px-4 py-3 text-white focus:border-neon focus:outline-none" required />
+                <input id="nume" name="nume" type="text" value="{{ old('nume') }}" placeholder="Numele tău complet" 
+                    class="mt-2 w-full rounded-2xl bg-midnight/60 border border-white/10 px-4 py-3 text-white focus:border-neon focus:outline-none @error('nume') border-rose-500 @enderror" 
+                    @error('nume') aria-invalid="true" aria-describedby="nume-error" @enderror
+                    required />
                 @error('nume')
-                    <p class="text-xs text-rose-300 mt-2">{{ $message }}</p>
+                    <p id="nume-error" class="text-xs text-rose-300 mt-2">{{ $message }}</p>
                 @enderror
             </div>
             <div class="grid gap-6 md:grid-cols-2">
                 <div>
                     <label for="email" class="text-sm text-white/60">Email</label>
-                    <input id="email" name="email" type="email" value="{{ old('email') }}" placeholder="email@brand.ro" class="mt-2 w-full rounded-2xl bg-midnight/60 border border-white/10 px-4 py-3 text-white focus:border-neon focus:outline-none" required />
+                    <input id="email" name="email" type="email" value="{{ old('email') }}" placeholder="email@brand.ro" 
+                        class="mt-2 w-full rounded-2xl bg-midnight/60 border border-white/10 px-4 py-3 text-white focus:border-neon focus:outline-none @error('email') border-rose-500 @enderror" 
+                        @error('email') aria-invalid="true" aria-describedby="email-error" @enderror
+                        required />
                     @error('email')
-                        <p class="text-xs text-rose-300 mt-2">{{ $message }}</p>
+                        <p id="email-error" class="text-xs text-rose-300 mt-2">{{ $message }}</p>
                     @enderror
                 </div>
                 <div>
@@ -59,9 +71,11 @@
             <div>
                 <label for="mesaj" class="text-sm text-white/60">Mesaj</label>
                 <textarea id="mesaj" name="mesaj" rows="4" placeholder="Spune-ne câteva detalii despre afacerea ta."
-                    class="mt-2 w-full rounded-2xl bg-midnight/60 border border-white/10 px-4 py-3 text-white focus:border-neon focus:outline-none" required>{{ old('mesaj') }}</textarea>
+                    class="mt-2 w-full rounded-2xl bg-midnight/60 border border-white/10 px-4 py-3 text-white focus:border-neon focus:outline-none @error('mesaj') border-rose-500 @enderror" 
+                    @error('mesaj') aria-invalid="true" aria-describedby="mesaj-error" @enderror
+                    required>{{ old('mesaj') }}</textarea>
                 @error('mesaj')
-                    <p class="text-xs text-rose-300 mt-2">{{ $message }}</p>
+                    <p id="mesaj-error" class="text-xs text-rose-300 mt-2">{{ $message }}</p>
                 @enderror
             </div>
             <button type="submit" class="w-full px-6 py-4 rounded-2xl bg-neon text-black font-semibold text-lg shadow-glow hover-cta">

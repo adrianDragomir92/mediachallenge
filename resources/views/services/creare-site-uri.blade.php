@@ -3,6 +3,25 @@
 @section('title', 'Creare Site-uri Târgoviște & Dâmbovița | Media Challenge')
 @section('meta_description', 'Media Challenge dezvoltă site-uri și aplicații web pentru branduri din Târgoviște, Dâmbovița și din țară: prezentare, e-commerce, platforme custom integrate cu campaniile sociale.')
 
+@push('head')
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Web Development",
+    "provider": {
+        "@type": "LocalBusiness",
+        "name": "Media Challenge"
+    },
+    "areaServed": {
+        "@type": "City",
+        "name": "Târgoviște"
+    },
+    "description": "Creare site-uri de prezentare, magazine online și platforme web personalizate."
+}
+</script>
+@endpush
+
 @section('background')
     <div class="absolute inset-0 bg-gradient-to-b from-[#0b0f1d] via-midnight to-midnight"></div>
     <div class="absolute -top-24 right-0 h-96 w-96 rounded-full bg-[#3340a1] blur-[200px] opacity-70"></div>
