@@ -11,7 +11,7 @@
 
 @section('content')
     <!-- Hero -->
-    <section class="max-w-6xl mx-auto px-6 pb-24 pt-12 lg:pt-24">
+    <section class="max-w-7xl mx-auto px-6 pb-24 pt-12 lg:pt-24">
         <div class="grid gap-16 lg:grid-cols-[1.1fr_0.9fr] items-center">
             <div>
                 <h1 data-reveal data-reveal-delay="120" class="text-4xl lg:text-6xl font-semibold leading-tight max-w-2xl">
@@ -83,7 +83,7 @@
     </section>
 
     <!-- Servicii -->
-    <section id="servicii" class="max-w-6xl mx-auto px-6 py-20 border-t border-white/5">
+    <section id="servicii" class="max-w-7xl mx-auto px-6 py-20 border-t border-white/5">
         <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6" data-reveal>
             <div>
                 <p class="text-sm uppercase tracking-[0.4em] text-white/50">Ce facem pentru tine</p>
@@ -141,7 +141,7 @@
 
 
     <!-- Prețuri -->
-    <section id="preturi" class="max-w-6xl mx-auto px-6 py-20 border-t border-white/5">
+    <section id="preturi" class="max-w-7xl mx-auto px-6 py-20 border-t border-white/5">
         <div class="text-center space-y-4" data-reveal>
             <p class="text-sm uppercase tracking-[0.4em] text-white/50">Planuri & prețuri</p>
             <h2 class="text-3xl lg:text-4xl font-semibold">Alege serviciul potrivit și primești costurile pe loc.</h2>
@@ -318,7 +318,7 @@
     </section>
 
     <!-- De ce noi -->
-    <section id="why-us" class="max-w-6xl mx-auto px-6 py-20 flex flex-col lg:flex-row gap-12 items-center">
+    <section id="why-us" class="max-w-7xl mx-auto px-6 py-20 flex flex-col lg:flex-row gap-12 items-center">
         <div class="flex-1" data-reveal>
             <p class="text-sm uppercase tracking-[0.4em] text-white/50">De ce să lucrezi cu noi?</p>
             <h2 class="text-3xl lg:text-4xl font-semibold mt-4">Nu doar postăm, ci ne ocupăm de tot succesul tău online.</h2>
@@ -390,7 +390,7 @@
 
 
     <!-- Clienți -->
-    <section id="clienti" class="max-w-6xl mx-auto px-6 py-20">
+    <section id="clienti" class="max-w-7xl mx-auto px-6 py-20">
         <div class="text-center space-y-4" data-reveal>
             <p class="text-sm uppercase tracking-[0.4em] text-white/50">Clienți și parteneri</p>
             <h2 class="text-3xl lg:text-4xl font-semibold">Branduri care ne-au ales pentru social media + tech.</h2>
@@ -415,7 +415,7 @@
     </section>
 
     <!-- Site-uri web -->
-    <section id="web" class="max-w-6xl mx-auto px-6 py-20 border-t border-white/5">
+    <section id="web" class="max-w-7xl mx-auto px-6 py-20 border-t border-white/5">
         <div class="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] items-center">
             <div data-reveal>
                 <p class="text-sm uppercase tracking-[0.4em] text-white/50">Creare site-uri web</p>
@@ -491,7 +491,7 @@
 
 
     <!-- Portofoliu -->
-    <section id="portofoliu" class="max-w-6xl mx-auto px-6 py-20 border-t border-white/5">
+    <section id="portofoliu" class="max-w-7xl mx-auto px-6 py-20 border-t border-white/5">
         <div class="flex flex-col gap-4" data-reveal>
             <p class="text-sm uppercase tracking-[0.4em] text-white/50">Clienți & rezultate</p>
             <h2 class="text-3xl lg:text-4xl font-semibold">Proiecte locale și rezultate reale pentru afaceri din Târgoviște și județul Dâmbovița.</h2>
@@ -573,7 +573,7 @@
 
 
     <!-- Proces -->
-    <section id="proces" class="max-w-6xl mx-auto px-6 py-20">
+    <section id="proces" class="max-w-7xl mx-auto px-6 py-20">
         <div class="flex flex-col gap-4" data-reveal>
             <p class="text-sm uppercase tracking-[0.4em] text-white/50">Proces</p>
             <h2 class="text-3xl lg:text-4xl font-semibold">Cum lucrăm împreună ca să ai rezultate?</h2>
@@ -606,7 +606,7 @@
 
 
     <!-- Testimoniale -->
-    <section id="testimoniale" class="max-w-6xl mx-auto px-6 py-20 border-t border-white/5">
+    <section id="testimoniale" class="max-w-7xl mx-auto px-6 py-20 border-t border-white/5">
         <div class="flex flex-col gap-4" data-reveal>
             <p class="text-sm uppercase tracking-[0.4em] text-white/50">Testimoniale</p>
         <h2 class="text-3xl lg:text-4xl font-semibold">Clienții ne aleg pentru claritate și viteză.</h2>
@@ -648,7 +648,7 @@
     </section>
 
     <!-- Concept mobil -->
-    <section class="max-w-6xl mx-auto px-6 pb-24">
+    <section class="max-w-7xl mx-auto px-6 pb-24">
         <div class="rounded-[40px] border border-white/10 bg-white/5 p-10 flex flex-col lg:flex-row gap-10 items-center">
             <div class="flex-1 w-full" data-reveal>
                 <div class="rounded-3xl border border-white/10 overflow-hidden shadow-glow mb-6">

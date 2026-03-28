@@ -29,7 +29,7 @@
 @endsection
 
 @section('content')
-    <section class="max-w-6xl mx-auto px-6 pt-12 pb-12 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] items-center">
+    <section class="max-w-7xl mx-auto px-6 pt-12 pb-12 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] items-center">
         <div class="text-center lg:text-left">
             <p class="text-sm uppercase tracking-[0.4em] text-white/60">Creare site-uri</p>
             <h1 class="text-4xl lg:text-5xl font-semibold mt-4">Site-uri moderne care îți aduc clienți noi din prima zi</h1>
@@ -54,7 +54,7 @@
         </div>
     </section>
 
-    <section id="tipuri" class="max-w-6xl mx-auto px-6 py-12 grid gap-8 lg:grid-cols-2">
+    <section id="tipuri" class="max-w-7xl mx-auto px-6 py-12 grid gap-8 lg:grid-cols-2">
         <article class="rounded-[32px] border border-white/10 bg-white/5 p-8 hover-lift-sm">
             <p class="text-sm text-white/60">Site-uri de Prezentare</p>
             <h3 class="text-3xl font-semibold mt-3">Landing Page / Site Rapid</h3>
@@ -77,7 +77,7 @@
         </article>
     </section>
 
-    <section class="max-w-6xl mx-auto px-6 py-12 grid gap-6 md:grid-cols-3">
+    <section class="max-w-7xl mx-auto px-6 py-12 grid gap-6 md:grid-cols-3">
         <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
             <p class="text-sm text-white/60">01</p>
             <h3 class="text-xl font-semibold mt-2">Structură clară</h3>
@@ -95,7 +95,7 @@
         </div>
     </section>
 
-        <section class="max-w-6xl mx-auto px-6 py-12 space-y-8" id="preturi">
+        <section class="max-w-7xl mx-auto px-6 py-12 space-y-8" id="preturi">
         <div class="text-center" data-reveal>
             <p class="text-sm uppercase tracking-[0.4em] text-white/60">Listă prețuri</p>
             <h2 class="text-3xl lg:text-4xl font-semibold mt-3">Creare site – Media Challenge</h2>

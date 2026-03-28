@@ -1,7 +1,7 @@
 <footer class="relative z-10 border-t border-white/10 bg-white/[0.02] backdrop-blur-sm overflow-hidden">
     <div class="absolute -top-24 left-1/4 h-64 w-64 rounded-full bg-[#3340a1] blur-[120px] opacity-20 pointer-events-none"></div>
     <div class="absolute -bottom-24 -right-12 h-64 w-64 rounded-full bg-[#512c84] blur-[120px] opacity-10 pointer-events-none"></div>
-    <div class="max-w-6xl mx-auto px-6 py-12">
+    <div class="max-w-7xl mx-auto px-6 py-12">
         <div class="flex flex-col md:flex-row justify-between gap-12 text-sm text-white/70">
             <div class="max-w-xs">
                 <p class="text-white font-semibold text-lg">Media Challenge</p>

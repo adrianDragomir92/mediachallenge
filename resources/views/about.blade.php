@@ -19,7 +19,7 @@
         </p>
     </section>
 
-    <section class="max-w-6xl mx-auto px-6 pb-16 grid gap-8 lg:grid-cols-2">
+    <section class="max-w-7xl mx-auto px-6 pb-16 grid gap-8 lg:grid-cols-2">
         <article class="rounded-[32px] border border-white/10 bg-white/5 p-8 backdrop-blur-xl shadow-glow hover-glow-card" data-reveal>
             <p class="text-sm text-white/60 uppercase tracking-[0.4em]">Strategie & social media</p>
             <h2 class="text-2xl font-semibold mt-3">

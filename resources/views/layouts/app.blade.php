@@ -84,7 +84,7 @@
         <div class="relative min-h-screen overflow-hidden">
             @yield('background')
 
-            <header class="relative z-50 max-w-6xl mx-auto px-6 py-8 flex items-center justify-between">
+            <header class="relative z-50 max-w-7xl mx-auto px-6 py-8 flex items-center justify-between">
                 <a href="/" class="flex items-center gap-3">
                     {{-- <div class="h-12 w-12 rounded-2xl bg-white/5 flex items-center justify-center shadow-glow">
                         <x-app-logo class="h-10 w-10" />

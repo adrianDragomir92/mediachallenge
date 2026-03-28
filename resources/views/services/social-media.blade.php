@@ -29,7 +29,7 @@
 @endsection
 
 @section('content')
-    <section class="max-w-6xl mx-auto px-6 pt-12 pb-12 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] items-center">
+    <section class="max-w-7xl mx-auto px-6 pt-12 pb-12 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] items-center">
         <div class="text-center lg:text-left">
             <p class="text-sm uppercase tracking-[0.4em] text-white/60">Social Media</p>
             <h1 class="text-4xl lg:text-5xl font-semibold mt-4">Preluăm complet Facebook, Instagram și TikTok pentru brandul tău.</h1>
@@ -54,7 +54,7 @@
         </div>
     </section>
 
-    <section class="max-w-6xl mx-auto px-6 py-12 grid gap-6 md:grid-cols-3" id="pachete">
+    <section class="max-w-7xl mx-auto px-6 py-12 grid gap-6 md:grid-cols-3" id="pachete">
         <article class="rounded-3xl border border-white/10 bg-white/5 p-6 hover-glow-card">
             <p class="text-sm text-white/60">Administrare & Reclame</p>
             <h3 class="text-2xl font-semibold mt-2">250 EUR / lună</h3>
@@ -85,7 +85,7 @@
         </article>
     </section>
 
-    <section class="max-w-6xl mx-auto px-6 py-12 space-y-8" id="preturi">
+    <section class="max-w-7xl mx-auto px-6 py-12 space-y-8" id="preturi">
         <div class="text-center" data-reveal>
             <p class="text-sm uppercase tracking-[0.4em] text-white/60">Detalii Prețuri</p>
             <h2 class="text-3xl lg:text-4xl font-semibold mt-3">Investiția ta în social media.</h2>
@@ -137,7 +137,7 @@
     </section>
 
 
-    <section class="max-w-6xl mx-auto px-6 py-12 grid gap-10 lg:grid-cols-2">
+    <section class="max-w-7xl mx-auto px-6 py-12 grid gap-10 lg:grid-cols-2">
         <div class="space-y-6">
             <h2 class="text-3xl font-semibold">Cum lucrăm</h2>
             <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
